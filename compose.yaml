@@ -1,0 +1,49 @@
+name: bank-messaging
+services:
+  postgres:
+    image: postgres:17.6-alpine3.22
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-bank}
+      POSTGRES_USER: ${POSTGRES_USER:-bank}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Create .env from .env.example}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  mq:
+    image: icr.io/ibm-messaging/mq:10.0.1.0-r1
+    platform: linux/amd64
+    environment:
+      LICENSE: ${MQ_LICENSE:?Set MQ_LICENSE in .env}
+      MQ_QMGR_NAME: QM1
+      MQ_DEV: "true"
+    secrets:
+      - mqAppPassword
+      - mqAdminPassword
+    ports:
+      - "127.0.0.1:${MQ_PORT:-1414}:1414"
+      - "127.0.0.1:${MQ_WEB_PORT:-9443}:9443"
+    volumes:
+      - mq-data:/mnt/mqm
+      - ./infra/mq/20-bank.mqsc:/etc/mqm/20-bank.mqsc:ro
+    healthcheck:
+      test: ["CMD", "chkmqready"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+    restart: unless-stopped
+volumes:
+  postgres-data:
+  mq-data:
+secrets:
+  mqAppPassword:
+    environment: MQ_APP_PASSWORD
+  mqAdminPassword:
+    environment: MQ_ADMIN_PASSWORD

@@ -1,0 +1,29 @@
+# Prebuilt JAR and Angular production build are required. See docs/LIVRAISON.md.
+services:
+  backend:
+    image: bank-messaging-backend:0.0.1
+    build: ./backend
+    env_file: .env
+    environment:
+      SERVER_ADDRESS: 0.0.0.0
+      SERVER_PORT: "8080"
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      MQ_HOST: mq
+      MQ_PORT: "1414"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mq:
+        condition: service_healthy
+    stop_grace_period: 45s
+    restart: unless-stopped
+  frontend:
+    image: bank-messaging-frontend:0.0.1
+    build: ./frontend
+    ports:
+      - "127.0.0.1:${WEB_PORT:-8088}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped

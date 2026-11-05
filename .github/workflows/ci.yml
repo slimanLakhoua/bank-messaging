@@ -1,0 +1,65 @@
+name: Build and test
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  backend:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release archive contents
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+          cache-dependency-path: backend/pom.xml
+      - name: Start test infrastructure
+        run: |
+          cp .env.example .env
+          docker compose up -d --wait --wait-timeout 240
+      - name: Build backend and run integration tests
+        working-directory: backend
+        run: ./mvnw -B -ntp -Pintegration verify
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install browser test dependencies
+        working-directory: frontend
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Start backend and verify MQ to browser path
+        run: |
+          java -jar backend/target/messaging-0.0.1-SNAPSHOT.jar > /tmp/bank-backend.log 2>&1 &
+          curl --fail --retry 30 --retry-connrefused --retry-delay 1 http://127.0.0.1:8080/actuator/health
+          cd frontend
+          RUN_LIVE=1 npm run e2e -- live.spec.ts
+      - name: Infrastructure logs on failure
+        if: failure()
+        run: docker compose logs --no-color
+      - name: Stop disposable CI infrastructure
+        if: always()
+        run: docker compose down -v
+  frontend:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm test -- --watch=false
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e -- consultation.spec.ts

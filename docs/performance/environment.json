@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "hostModel": "MacBookPro15,1",
+  "hostPhysicalCores": 8,
+  "hostLogicalCores": 16,
+  "hostRamBytes": 17179869184,
+  "dockerCpus": 16,
+  "dockerMemoryBytes": 8218136576,
+  "java": "21",
+  "springBoot": "4.1.2",
+  "mqServer": "10.0.1.0-r1",
+  "postgres": "17.6-alpine3.22",
+  "repetitionsPerScenario": 1
+}

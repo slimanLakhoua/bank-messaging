@@ -1,0 +1,151 @@
+<section aria-labelledby="list-title">
+  <div class="page-heading">
+    <div>
+      <h1 id="list-title">Messages reçus</h1>
+      <p>Consultez les messages enregistrés et leur contenu.</p>
+    </div>
+    <button type="button" (click)="reload()" [disabled]="state().status === 'loading'">
+      Actualiser
+    </button>
+  </div>
+  <form
+    class="toolbar search-filters"
+    #search="ngForm"
+    (ngSubmit)="applySearch(search)"
+    aria-label="Filtres des messages"
+  >
+    <label
+      >Identifiant MQ exact
+      <input name="messageId" maxlength="512" [ngModel]="pagination().messageId ?? ''" />
+    </label>
+    <label
+      >File source exacte
+      <input name="sourceQueue" maxlength="512" [ngModel]="pagination().sourceQueue ?? ''" />
+    </label>
+    <label
+      >Depuis (UTC, inclus)
+      <input
+        name="from"
+        type="datetime-local"
+        step="0.001"
+        [ngModel]="pagination().from?.slice(0, -1) ?? ''"
+      />
+    </label>
+    <label
+      >Avant (UTC, exclu)
+      <input
+        name="to"
+        type="datetime-local"
+        step="0.001"
+        [ngModel]="pagination().to?.slice(0, -1) ?? ''"
+      />
+    </label>
+    <label
+      >Ordre de réception
+      <select name="sort" [ngModel]="pagination().sort ?? 'receivedAt,desc'">
+        <option value="receivedAt,desc">Plus récents d’abord</option>
+        <option value="receivedAt,asc">Plus anciens d’abord</option>
+      </select>
+    </label>
+    <button type="submit">Rechercher</button>
+    <button type="button" (click)="clearSearch(search)">Effacer les filtres</button>
+  </form>
+  @if (searchError(); as error) {
+    <p role="alert">{{ error }}</p>
+  }
+  @let view = state();
+  @let page = pagination().page;
+  @let size = pagination().size;
+  @if (view.status === 'loading') {
+    <div class="state" role="status">Chargement des messages…</div>
+  } @else if (view.status === 'error' || view.status === 'missing') {
+    <div class="state" role="alert">
+      <h2>Impossible de charger les messages</h2>
+      <p>Vérifiez votre connexion puis réessayez.</p>
+      <button class="primary" type="button" (click)="reload()">Réessayer</button>
+    </div>
+  } @else if (view.status === 'ready') {
+    <div class="toolbar">
+      <p role="status">{{ view.data.totalElements }} message(s) enregistré(s)</p>
+      <label
+        >Messages par page
+        <select id="message-page-size" #pageSize [value]="size" (change)="resize(pageSize.value)">
+          @for (option of pageSizes; track option) {
+            <option [value]="option">{{ option }}</option>
+          }
+        </select></label
+      >
+    </div>
+    @if (view.data.content.length === 0) {
+      <div class="state">
+        <h2>Aucun message sur cette page</h2>
+        <p>Les messages apparaîtront après leur réception.</p>
+        @if (page > 0) {
+          <button type="button" (click)="go(0)">Revenir au début</button>
+        }
+      </div>
+    } @else {
+      <div
+        class="table-scroll"
+        tabindex="0"
+        role="region"
+        aria-label="Tableau des messages, défilement horizontal possible"
+      >
+        <table>
+          <caption>
+            Messages reçus,
+            {{
+              pagination().sort === 'receivedAt,asc'
+                ? 'du plus ancien au plus récent'
+                : 'du plus récent au plus ancien'
+            }}. Dates en UTC.
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Message</th>
+              <th scope="col">File source</th>
+              <th scope="col">Réception (UTC)</th>
+              <th scope="col">Taille</th>
+              <th scope="col">Consultation</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (message of view.data.content; track message.id) {
+              <tr>
+                <td>
+                  <span class="message-number">N° {{ message.id }}</span
+                  ><code>{{ message.jmsMessageId }}</code>
+                </td>
+                <td>{{ message.sourceQueue }}</td>
+                <td class="date">{{ message.receivedAt | date: 'dd/MM/yyyy HH:mm:ss' : 'UTC' }}</td>
+                <td>{{ message.payloadSize }} octets</td>
+                <td>
+                  <a
+                    [routerLink]="['/messages', message.id]"
+                    [queryParams]="pagination()"
+                    [attr.aria-label]="'Voir le message ' + message.id"
+                    >Voir le détail</a
+                  >
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    }
+    <nav class="pagination" aria-label="Pagination des messages">
+      <button type="button" (click)="go(page - 1)" [disabled]="page === 0">Précédente</button>
+      <p>Page {{ page + 1 }} sur {{ view.data.totalPages || 1 }}</p>
+      <button
+        type="button"
+        (click)="go(page + 1)"
+        [disabled]="page + 1 >= view.data.totalPages || page >= maxPage"
+      >
+        Suivante
+      </button>
+    </nav>
+    @if (page === maxPage && view.data.totalPages > maxPage + 1) {
+      <p>La limite de consultation par page est atteinte.</p>
+    }
+  }
+</section>

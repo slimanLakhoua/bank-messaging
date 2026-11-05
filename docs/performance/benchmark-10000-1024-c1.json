@@ -1,0 +1,4921 @@
+{
+  "durationSeconds": 70.877853298,
+  "warmupMessages": 500,
+  "backout": 0,
+  "messagesPerSecond": 141.08779448999164,
+  "sqlPool": 5,
+  "processCpuCoreEquivalent": 0.2340871545621173,
+  "latencyP95Ms": 63445.144249,
+  "java": "21+35-LTS-2513",
+  "producerThreads": 1,
+  "inputDepthFinal": 0,
+  "persistent": true,
+  "timestamp": "2026-11-04T16:50:02.121590Z",
+  "latencyP99Ms": 65680.013371,
+  "duplicates": 0,
+  "os": "Mac OS X",
+  "peakHeapBytesSampled": 85111064,
+  "receivedAttempts": 10000,
+  "payloadBytes": 1024,
+  "sendSeconds": 4.380275251,
+  "samples": [
+    {
+      "committed": 0,
+      "submitted": 0,
+      "heapBytes": 64368120,
+      "elapsedMs": 6.438922
+    },
+    {
+      "committed": 1,
+      "submitted": 126,
+      "heapBytes": 30799920,
+      "elapsedMs": 111.416411
+    },
+    {
+      "committed": 5,
+      "submitted": 312,
+      "heapBytes": 32897072,
+      "elapsedMs": 216.457604
+    },
+    {
+      "committed": 11,
+      "submitted": 600,
+      "heapBytes": 34994224,
+      "elapsedMs": 319.600328
+    },
+    {
+      "committed": 15,
+      "submitted": 852,
+      "heapBytes": 37091376,
+      "elapsedMs": 421.411985
+    },
+    {
+      "committed": 19,
+      "submitted": 1100,
+      "heapBytes": 39188528,
+      "elapsedMs": 525.343243
+    },
+    {
+      "committed": 22,
+      "submitted": 1293,
+      "heapBytes": 41285680,
+      "elapsedMs": 626.483454
+    },
+    {
+      "committed": 26,
+      "submitted": 1500,
+      "heapBytes": 43382832,
+      "elapsedMs": 730.511566
+    },
+    {
+      "committed": 30,
+      "submitted": 1800,
+      "heapBytes": 45479984,
+      "elapsedMs": 834.186212
+    },
+    {
+      "committed": 34,
+      "submitted": 2000,
+      "heapBytes": 47577136,
+      "elapsedMs": 937.422158
+    },
+    {
+      "committed": 39,
+      "submitted": 2258,
+      "heapBytes": 49674288,
+      "elapsedMs": 1040.241898
+    },
+    {
+      "committed": 42,
+      "submitted": 2500,
+      "heapBytes": 51771440,
+      "elapsedMs": 1144.663707
+    },
+    {
+      "committed": 45,
+      "submitted": 2700,
+      "heapBytes": 53868592,
+      "elapsedMs": 1247.074065
+    },
+    {
+      "committed": 49,
+      "submitted": 3000,
+      "heapBytes": 55965744,
+      "elapsedMs": 1349.036456
+    },
+    {
+      "committed": 52,
+      "submitted": 3200,
+      "heapBytes": 58062896,
+      "elapsedMs": 1449.270519
+    },
+    {
+      "committed": 57,
+      "submitted": 3433,
+      "heapBytes": 58062896,
+      "elapsedMs": 1554.242921
+    },
+    {
+      "committed": 61,
+      "submitted": 3700,
+      "heapBytes": 60160048,
+      "elapsedMs": 1656.62193
+    },
+    {
+      "committed": 65,
+      "submitted": 3900,
+      "heapBytes": 62257200,
+      "elapsedMs": 1759.72815
+    },
+    {
+      "committed": 68,
+      "submitted": 4100,
+      "heapBytes": 64354352,
+      "elapsedMs": 1863.776526
+    },
+    {
+      "committed": 71,
+      "submitted": 4300,
+      "heapBytes": 66451504,
+      "elapsedMs": 1968.357237
+    },
+    {
+      "committed": 75,
+      "submitted": 4600,
+      "heapBytes": 68548656,
+      "elapsedMs": 2069.40627
+    },
+    {
+      "committed": 79,
+      "submitted": 4837,
+      "heapBytes": 70645808,
+      "elapsedMs": 2169.881532
+    },
+    {
+      "committed": 82,
+      "submitted": 5093,
+      "heapBytes": 72742960,
+      "elapsedMs": 2270.832091
+    },
+    {
+      "committed": 84,
+      "submitted": 5200,
+      "heapBytes": 72742960,
+      "elapsedMs": 2371.309566
+    },
+    {
+      "committed": 86,
+      "submitted": 5389,
+      "heapBytes": 74840112,
+      "elapsedMs": 2472.385818
+    },
+    {
+      "committed": 89,
+      "submitted": 5600,
+      "heapBytes": 76937264,
+      "elapsedMs": 2576.429087
+    },
+    {
+      "committed": 93,
+      "submitted": 5800,
+      "heapBytes": 76937264,
+      "elapsedMs": 2682.359
+    },
+    {
+      "committed": 96,
+      "submitted": 6000,
+      "heapBytes": 79034416,
+      "elapsedMs": 2786.417137
+    },
+    {
+      "committed": 100,
+      "submitted": 6300,
+      "heapBytes": 81131568,
+      "elapsedMs": 2889.033839
+    },
+    {
+      "committed": 103,
+      "submitted": 6553,
+      "heapBytes": 83228720,
+      "elapsedMs": 2992.921984
+    },
+    {
+      "committed": 107,
+      "submitted": 6800,
+      "heapBytes": 33955152,
+      "elapsedMs": 3096.991359
+    },
+    {
+      "committed": 111,
+      "submitted": 7100,
+      "heapBytes": 36052304,
+      "elapsedMs": 3200.634139
+    },
+    {
+      "committed": 115,
+      "submitted": 7400,
+      "heapBytes": 38149456,
+      "elapsedMs": 3304.641497
+    },
+    {
+      "committed": 118,
+      "submitted": 7600,
+      "heapBytes": 40246608,
+      "elapsedMs": 3408.299483
+    },
+    {
+      "committed": 122,
+      "submitted": 7895,
+      "heapBytes": 42343760,
+      "elapsedMs": 3510.967623
+    },
+    {
+      "committed": 125,
+      "submitted": 8100,
+      "heapBytes": 42343760,
+      "elapsedMs": 3611.755811
+    },
+    {
+      "committed": 129,
+      "submitted": 8381,
+      "heapBytes": 44440912,
+      "elapsedMs": 3711.884527
+    },
+    {
+      "committed": 132,
+      "submitted": 8600,
+      "heapBytes": 46538064,
+      "elapsedMs": 3815.300029
+    },
+    {
+      "committed": 135,
+      "submitted": 8833,
+      "heapBytes": 48635216,
+      "elapsedMs": 3918.516213
+    },
+    {
+      "committed": 139,
+      "submitted": 9100,
+      "heapBytes": 50732368,
+      "elapsedMs": 4023.636571
+    },
+    {
+      "committed": 143,
+      "submitted": 9400,
+      "heapBytes": 52829520,
+      "elapsedMs": 4126.094036
+    },
+    {
+      "committed": 146,
+      "submitted": 9600,
+      "heapBytes": 54926672,
+      "elapsedMs": 4230.567137
+    },
+    {
+      "committed": 150,
+      "submitted": 9900,
+      "heapBytes": 57023824,
+      "elapsedMs": 4333.175788
+    },
+    {
+      "committed": 161,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 4435.957348
+    },
+    {
+      "committed": 179,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 4538.888076
+    },
+    {
+      "committed": 197,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 4642.913731
+    },
+    {
+      "committed": 214,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 4746.994819
+    },
+    {
+      "committed": 231,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 4847.368684
+    },
+    {
+      "committed": 247,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 4950.34002
+    },
+    {
+      "committed": 264,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 5053.452262
+    },
+    {
+      "committed": 281,
+      "submitted": 10000,
+      "heapBytes": 59120976,
+      "elapsedMs": 5156.528608
+    },
+    {
+      "committed": 297,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5260.753341
+    },
+    {
+      "committed": 315,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5362.936841
+    },
+    {
+      "committed": 331,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5465.707213
+    },
+    {
+      "committed": 349,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5569.808652
+    },
+    {
+      "committed": 364,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5670.010575
+    },
+    {
+      "committed": 380,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5773.956165
+    },
+    {
+      "committed": 395,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5877.490443
+    },
+    {
+      "committed": 409,
+      "submitted": 10000,
+      "heapBytes": 61218128,
+      "elapsedMs": 5981.432477
+    },
+    {
+      "committed": 425,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6085.854785
+    },
+    {
+      "committed": 440,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6188.137564
+    },
+    {
+      "committed": 457,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6292.858464
+    },
+    {
+      "committed": 473,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6397.7906
+    },
+    {
+      "committed": 487,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6500.376036
+    },
+    {
+      "committed": 502,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6605.315566
+    },
+    {
+      "committed": 517,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6710.200518
+    },
+    {
+      "committed": 531,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6813.834296
+    },
+    {
+      "committed": 548,
+      "submitted": 10000,
+      "heapBytes": 63315280,
+      "elapsedMs": 6917.97473
+    },
+    {
+      "committed": 565,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7022.45497
+    },
+    {
+      "committed": 582,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7126.029405
+    },
+    {
+      "committed": 599,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7230.50158
+    },
+    {
+      "committed": 617,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7332.328671
+    },
+    {
+      "committed": 634,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7435.840419
+    },
+    {
+      "committed": 651,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7539.668938
+    },
+    {
+      "committed": 668,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7644.277772
+    },
+    {
+      "committed": 685,
+      "submitted": 10000,
+      "heapBytes": 65412432,
+      "elapsedMs": 7747.555655
+    },
+    {
+      "committed": 702,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 7847.873133
+    },
+    {
+      "committed": 718,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 7952.74696
+    },
+    {
+      "committed": 735,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 8055.081021
+    },
+    {
+      "committed": 752,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 8155.23655
+    },
+    {
+      "committed": 769,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 8259.325306
+    },
+    {
+      "committed": 787,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 8363.611121
+    },
+    {
+      "committed": 804,
+      "submitted": 10000,
+      "heapBytes": 67509584,
+      "elapsedMs": 8467.495372
+    },
+    {
+      "committed": 822,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 8572.34263
+    },
+    {
+      "committed": 838,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 8672.534866
+    },
+    {
+      "committed": 855,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 8772.666252
+    },
+    {
+      "committed": 870,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 8875.561514
+    },
+    {
+      "committed": 885,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 8980.504152
+    },
+    {
+      "committed": 897,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 9082.443449
+    },
+    {
+      "committed": 909,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 9185.83899
+    },
+    {
+      "committed": 921,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 9289.914845
+    },
+    {
+      "committed": 938,
+      "submitted": 10000,
+      "heapBytes": 69606736,
+      "elapsedMs": 9394.543494
+    },
+    {
+      "committed": 954,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 9497.6628
+    },
+    {
+      "committed": 969,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 9598.930102
+    },
+    {
+      "committed": 976,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 9703.13921
+    },
+    {
+      "committed": 984,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 9803.697127
+    },
+    {
+      "committed": 991,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 9906.086365
+    },
+    {
+      "committed": 1000,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 10009.361599
+    },
+    {
+      "committed": 1014,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 10114.439805
+    },
+    {
+      "committed": 1030,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 10214.711914
+    },
+    {
+      "committed": 1047,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 10318.612897
+    },
+    {
+      "committed": 1062,
+      "submitted": 10000,
+      "heapBytes": 71703888,
+      "elapsedMs": 10422.144759
+    },
+    {
+      "committed": 1079,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 10526.094122
+    },
+    {
+      "committed": 1090,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 10630.683141
+    },
+    {
+      "committed": 1107,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 10735.330351
+    },
+    {
+      "committed": 1124,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 10837.43542
+    },
+    {
+      "committed": 1141,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 10941.454338
+    },
+    {
+      "committed": 1153,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 11043.239371
+    },
+    {
+      "committed": 1162,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 11143.930175
+    },
+    {
+      "committed": 1173,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 11245.255808
+    },
+    {
+      "committed": 1186,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 11347.036212
+    },
+    {
+      "committed": 1197,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 11449.600826
+    },
+    {
+      "committed": 1209,
+      "submitted": 10000,
+      "heapBytes": 73801040,
+      "elapsedMs": 11552.447465
+    },
+    {
+      "committed": 1219,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 11655.901864
+    },
+    {
+      "committed": 1232,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 11760.142213
+    },
+    {
+      "committed": 1244,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 11863.379768
+    },
+    {
+      "committed": 1251,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 11969.040443
+    },
+    {
+      "committed": 1261,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12072.235294
+    },
+    {
+      "committed": 1275,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12176.964206
+    },
+    {
+      "committed": 1289,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12281.538165
+    },
+    {
+      "committed": 1300,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12382.171305
+    },
+    {
+      "committed": 1314,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12482.302411
+    },
+    {
+      "committed": 1327,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12584.828328
+    },
+    {
+      "committed": 1336,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12689.490821
+    },
+    {
+      "committed": 1349,
+      "submitted": 10000,
+      "heapBytes": 75898192,
+      "elapsedMs": 12790.839733
+    },
+    {
+      "committed": 1363,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 12893.738596
+    },
+    {
+      "committed": 1379,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 12997.061492
+    },
+    {
+      "committed": 1394,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13101.419841
+    },
+    {
+      "committed": 1403,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13204.034174
+    },
+    {
+      "committed": 1416,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13308.296474
+    },
+    {
+      "committed": 1427,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13411.172909
+    },
+    {
+      "committed": 1443,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13514.914178
+    },
+    {
+      "committed": 1455,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13619.289311
+    },
+    {
+      "committed": 1469,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13719.466039
+    },
+    {
+      "committed": 1484,
+      "submitted": 10000,
+      "heapBytes": 77995344,
+      "elapsedMs": 13824.620929
+    },
+    {
+      "committed": 1497,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 13925.877661
+    },
+    {
+      "committed": 1510,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14030.582975
+    },
+    {
+      "committed": 1521,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14134.634038
+    },
+    {
+      "committed": 1532,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14236.591447
+    },
+    {
+      "committed": 1546,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14340.092077
+    },
+    {
+      "committed": 1559,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14444.481199
+    },
+    {
+      "committed": 1574,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14547.454907
+    },
+    {
+      "committed": 1589,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14650.267284
+    },
+    {
+      "committed": 1604,
+      "submitted": 10000,
+      "heapBytes": 80092496,
+      "elapsedMs": 14750.790252
+    },
+    {
+      "committed": 1618,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 14854.908141
+    },
+    {
+      "committed": 1634,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 14958.309888
+    },
+    {
+      "committed": 1649,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15061.233312
+    },
+    {
+      "committed": 1664,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15161.453442
+    },
+    {
+      "committed": 1679,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15265.702941
+    },
+    {
+      "committed": 1696,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15369.410873
+    },
+    {
+      "committed": 1706,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15473.972381
+    },
+    {
+      "committed": 1722,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15578.154507
+    },
+    {
+      "committed": 1739,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15680.495551
+    },
+    {
+      "committed": 1757,
+      "submitted": 10000,
+      "heapBytes": 82189648,
+      "elapsedMs": 15780.62694
+    },
+    {
+      "committed": 1775,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 15883.065639
+    },
+    {
+      "committed": 1793,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 15987.457605
+    },
+    {
+      "committed": 1809,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 16088.653927
+    },
+    {
+      "committed": 1824,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 16192.427834
+    },
+    {
+      "committed": 1841,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 16297.111731
+    },
+    {
+      "committed": 1858,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 16400.184724
+    },
+    {
+      "committed": 1874,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 16504.222502
+    },
+    {
+      "committed": 1891,
+      "submitted": 10000,
+      "heapBytes": 84286800,
+      "elapsedMs": 16608.234963
+    },
+    {
+      "committed": 1904,
+      "submitted": 10000,
+      "heapBytes": 32059224,
+      "elapsedMs": 16709.1764
+    },
+    {
+      "committed": 1920,
+      "submitted": 10000,
+      "heapBytes": 32059224,
+      "elapsedMs": 16812.57916
+    },
+    {
+      "committed": 1936,
+      "submitted": 10000,
+      "heapBytes": 32059224,
+      "elapsedMs": 16913.797417
+    },
+    {
+      "committed": 1953,
+      "submitted": 10000,
+      "heapBytes": 32059224,
+      "elapsedMs": 17017.297437
+    },
+    {
+      "committed": 1970,
+      "submitted": 10000,
+      "heapBytes": 32059224,
+      "elapsedMs": 17122.15435
+    },
+    {
+      "committed": 1986,
+      "submitted": 10000,
+      "heapBytes": 32059224,
+      "elapsedMs": 17225.619667
+    },
+    {
+      "committed": 2004,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17330.677927
+    },
+    {
+      "committed": 2020,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17434.425757
+    },
+    {
+      "committed": 2036,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17537.473137
+    },
+    {
+      "committed": 2052,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17639.327265
+    },
+    {
+      "committed": 2068,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17744.389802
+    },
+    {
+      "committed": 2086,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17849.343387
+    },
+    {
+      "committed": 2102,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 17952.677322
+    },
+    {
+      "committed": 2119,
+      "submitted": 10000,
+      "heapBytes": 34156376,
+      "elapsedMs": 18057.514123
+    },
+    {
+      "committed": 2135,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18161.036517
+    },
+    {
+      "committed": 2152,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18262.534819
+    },
+    {
+      "committed": 2168,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18364.64572
+    },
+    {
+      "committed": 2184,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18467.942865
+    },
+    {
+      "committed": 2201,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18568.783096
+    },
+    {
+      "committed": 2217,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18671.941339
+    },
+    {
+      "committed": 2234,
+      "submitted": 10000,
+      "heapBytes": 36253528,
+      "elapsedMs": 18776.005801
+    },
+    {
+      "committed": 2249,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 18880.57259
+    },
+    {
+      "committed": 2264,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 18983.420252
+    },
+    {
+      "committed": 2278,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 19087.34371
+    },
+    {
+      "committed": 2294,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 19191.865816
+    },
+    {
+      "committed": 2309,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 19293.874742
+    },
+    {
+      "committed": 2326,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 19397.180994
+    },
+    {
+      "committed": 2344,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 19497.331105
+    },
+    {
+      "committed": 2362,
+      "submitted": 10000,
+      "heapBytes": 38350680,
+      "elapsedMs": 19601.247657
+    },
+    {
+      "committed": 2379,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 19705.1899
+    },
+    {
+      "committed": 2396,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 19807.134502
+    },
+    {
+      "committed": 2414,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 19911.01235
+    },
+    {
+      "committed": 2432,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 20011.154042
+    },
+    {
+      "committed": 2448,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 20114.580083
+    },
+    {
+      "committed": 2466,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 20214.783075
+    },
+    {
+      "committed": 2485,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 20319.389578
+    },
+    {
+      "committed": 2502,
+      "submitted": 10000,
+      "heapBytes": 40447832,
+      "elapsedMs": 20423.154542
+    },
+    {
+      "committed": 2519,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 20525.598374
+    },
+    {
+      "committed": 2532,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 20630.518514
+    },
+    {
+      "committed": 2549,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 20734.190658
+    },
+    {
+      "committed": 2567,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 20837.489952
+    },
+    {
+      "committed": 2586,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 20941.574955
+    },
+    {
+      "committed": 2604,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 21042.962954
+    },
+    {
+      "committed": 2622,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 21146.998222
+    },
+    {
+      "committed": 2640,
+      "submitted": 10000,
+      "heapBytes": 42544984,
+      "elapsedMs": 21250.280392
+    },
+    {
+      "committed": 2655,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21353.848664
+    },
+    {
+      "committed": 2670,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21455.270213
+    },
+    {
+      "committed": 2685,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21559.120215
+    },
+    {
+      "committed": 2700,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21663.186896
+    },
+    {
+      "committed": 2713,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21767.660517
+    },
+    {
+      "committed": 2729,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21870.12854
+    },
+    {
+      "committed": 2745,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 21972.523694
+    },
+    {
+      "committed": 2760,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 22075.483086
+    },
+    {
+      "committed": 2777,
+      "submitted": 10000,
+      "heapBytes": 44642136,
+      "elapsedMs": 22180.535448
+    },
+    {
+      "committed": 2793,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22280.729684
+    },
+    {
+      "committed": 2811,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22385.091622
+    },
+    {
+      "committed": 2827,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22485.589927
+    },
+    {
+      "committed": 2843,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22587.455833
+    },
+    {
+      "committed": 2859,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22691.657323
+    },
+    {
+      "committed": 2873,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22791.808909
+    },
+    {
+      "committed": 2889,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22892.993406
+    },
+    {
+      "committed": 2904,
+      "submitted": 10000,
+      "heapBytes": 46739288,
+      "elapsedMs": 22996.983559
+    },
+    {
+      "committed": 2920,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23097.501153
+    },
+    {
+      "committed": 2936,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23200.69533
+    },
+    {
+      "committed": 2952,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23304.119934
+    },
+    {
+      "committed": 2969,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23407.879549
+    },
+    {
+      "committed": 2987,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23511.761023
+    },
+    {
+      "committed": 3001,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23612.133679
+    },
+    {
+      "committed": 3019,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23714.286276
+    },
+    {
+      "committed": 3036,
+      "submitted": 10000,
+      "heapBytes": 48836440,
+      "elapsedMs": 23817.674957
+    },
+    {
+      "committed": 3052,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 23921.876186
+    },
+    {
+      "committed": 3069,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24024.725341
+    },
+    {
+      "committed": 3085,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24128.354872
+    },
+    {
+      "committed": 3100,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24232.502452
+    },
+    {
+      "committed": 3115,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24336.838869
+    },
+    {
+      "committed": 3131,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24436.962295
+    },
+    {
+      "committed": 3148,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24539.600451
+    },
+    {
+      "committed": 3163,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24642.20145
+    },
+    {
+      "committed": 3172,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24747.069872
+    },
+    {
+      "committed": 3176,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24847.5813
+    },
+    {
+      "committed": 3180,
+      "submitted": 10000,
+      "heapBytes": 50933592,
+      "elapsedMs": 24950.072174
+    },
+    {
+      "committed": 3185,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25054.84899
+    },
+    {
+      "committed": 3201,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25159.366221
+    },
+    {
+      "committed": 3217,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25262.294088
+    },
+    {
+      "committed": 3234,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25366.317177
+    },
+    {
+      "committed": 3251,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25466.497846
+    },
+    {
+      "committed": 3268,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25570.578634
+    },
+    {
+      "committed": 3283,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25670.75239
+    },
+    {
+      "committed": 3298,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25770.921675
+    },
+    {
+      "committed": 3315,
+      "submitted": 10000,
+      "heapBytes": 53030744,
+      "elapsedMs": 25871.01739
+    },
+    {
+      "committed": 3332,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 25974.443563
+    },
+    {
+      "committed": 3349,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26075.717686
+    },
+    {
+      "committed": 3365,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26180.778347
+    },
+    {
+      "committed": 3382,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26284.285596
+    },
+    {
+      "committed": 3395,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26388.753903
+    },
+    {
+      "committed": 3409,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26492.903502
+    },
+    {
+      "committed": 3424,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26597.239015
+    },
+    {
+      "committed": 3439,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26697.634309
+    },
+    {
+      "committed": 3455,
+      "submitted": 10000,
+      "heapBytes": 55127896,
+      "elapsedMs": 26800.705201
+    },
+    {
+      "committed": 3471,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 26903.428318
+    },
+    {
+      "committed": 3489,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27006.243495
+    },
+    {
+      "committed": 3506,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27108.8964
+    },
+    {
+      "committed": 3523,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27211.154322
+    },
+    {
+      "committed": 3540,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27313.746095
+    },
+    {
+      "committed": 3557,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27416.240918
+    },
+    {
+      "committed": 3572,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27519.729313
+    },
+    {
+      "committed": 3590,
+      "submitted": 10000,
+      "heapBytes": 57225048,
+      "elapsedMs": 27624.495585
+    },
+    {
+      "committed": 3607,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 27724.850857
+    },
+    {
+      "committed": 3624,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 27827.949154
+    },
+    {
+      "committed": 3642,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 27931.948155
+    },
+    {
+      "committed": 3659,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 28032.532221
+    },
+    {
+      "committed": 3677,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 28135.989188
+    },
+    {
+      "committed": 3695,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 28240.95308
+    },
+    {
+      "committed": 3713,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 28343.758079
+    },
+    {
+      "committed": 3723,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 28447.766121
+    },
+    {
+      "committed": 3725,
+      "submitted": 10000,
+      "heapBytes": 59322200,
+      "elapsedMs": 28551.66823
+    },
+    {
+      "committed": 3742,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 28654.392633
+    },
+    {
+      "committed": 3760,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 28754.646991
+    },
+    {
+      "committed": 3776,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 28854.931211
+    },
+    {
+      "committed": 3791,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 28959.206504
+    },
+    {
+      "committed": 3806,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 29060.575114
+    },
+    {
+      "committed": 3822,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 29161.862171
+    },
+    {
+      "committed": 3838,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 29261.963026
+    },
+    {
+      "committed": 3855,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 29364.332917
+    },
+    {
+      "committed": 3873,
+      "submitted": 10000,
+      "heapBytes": 61419352,
+      "elapsedMs": 29467.852502
+    },
+    {
+      "committed": 3890,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 29569.31436
+    },
+    {
+      "committed": 3907,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 29670.196404
+    },
+    {
+      "committed": 3924,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 29773.72308
+    },
+    {
+      "committed": 3940,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 29877.625438
+    },
+    {
+      "committed": 3956,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 29982.152591
+    },
+    {
+      "committed": 3971,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 30086.207347
+    },
+    {
+      "committed": 3988,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 30186.371387
+    },
+    {
+      "committed": 4005,
+      "submitted": 10000,
+      "heapBytes": 63516504,
+      "elapsedMs": 30288.083441
+    },
+    {
+      "committed": 4021,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 30391.962185
+    },
+    {
+      "committed": 4039,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 30496.980228
+    },
+    {
+      "committed": 4053,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 30600.526461
+    },
+    {
+      "committed": 4066,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 30703.162139
+    },
+    {
+      "committed": 4084,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 30807.412586
+    },
+    {
+      "committed": 4102,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 30911.194188
+    },
+    {
+      "committed": 4120,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 31013.410204
+    },
+    {
+      "committed": 4137,
+      "submitted": 10000,
+      "heapBytes": 65613656,
+      "elapsedMs": 31118.287493
+    },
+    {
+      "committed": 4155,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31222.477509
+    },
+    {
+      "committed": 4173,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31326.974983
+    },
+    {
+      "committed": 4188,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31430.62473
+    },
+    {
+      "committed": 4201,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31532.781314
+    },
+    {
+      "committed": 4216,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31636.68771
+    },
+    {
+      "committed": 4232,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31739.275445
+    },
+    {
+      "committed": 4249,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31842.875889
+    },
+    {
+      "committed": 4267,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 31947.284795
+    },
+    {
+      "committed": 4283,
+      "submitted": 10000,
+      "heapBytes": 67710808,
+      "elapsedMs": 32050.830223
+    },
+    {
+      "committed": 4301,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32153.229381
+    },
+    {
+      "committed": 4318,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32255.971868
+    },
+    {
+      "committed": 4334,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32358.739044
+    },
+    {
+      "committed": 4352,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32462.21544
+    },
+    {
+      "committed": 4370,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32565.876435
+    },
+    {
+      "committed": 4387,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32669.145725
+    },
+    {
+      "committed": 4404,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32769.360808
+    },
+    {
+      "committed": 4423,
+      "submitted": 10000,
+      "heapBytes": 69807960,
+      "elapsedMs": 32871.261786
+    },
+    {
+      "committed": 4439,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 32972.325749
+    },
+    {
+      "committed": 4454,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33075.249896
+    },
+    {
+      "committed": 4470,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33179.945034
+    },
+    {
+      "committed": 4486,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33283.092287
+    },
+    {
+      "committed": 4499,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33385.480468
+    },
+    {
+      "committed": 4516,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33485.675968
+    },
+    {
+      "committed": 4530,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33587.260765
+    },
+    {
+      "committed": 4546,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33690.252369
+    },
+    {
+      "committed": 4562,
+      "submitted": 10000,
+      "heapBytes": 71905112,
+      "elapsedMs": 33791.951571
+    },
+    {
+      "committed": 4578,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 33896.987958
+    },
+    {
+      "committed": 4592,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 33997.710279
+    },
+    {
+      "committed": 4606,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34102.66184
+    },
+    {
+      "committed": 4620,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34205.88381
+    },
+    {
+      "committed": 4633,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34305.989519
+    },
+    {
+      "committed": 4650,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34409.041968
+    },
+    {
+      "committed": 4667,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34512.397156
+    },
+    {
+      "committed": 4683,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34614.596919
+    },
+    {
+      "committed": 4700,
+      "submitted": 10000,
+      "heapBytes": 74002264,
+      "elapsedMs": 34718.488641
+    },
+    {
+      "committed": 4718,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 34822.585017
+    },
+    {
+      "committed": 4736,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 34927.244821
+    },
+    {
+      "committed": 4755,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 35030.91649
+    },
+    {
+      "committed": 4772,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 35135.940595
+    },
+    {
+      "committed": 4788,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 35239.921728
+    },
+    {
+      "committed": 4806,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 35344.729503
+    },
+    {
+      "committed": 4824,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 35448.534823
+    },
+    {
+      "committed": 4842,
+      "submitted": 10000,
+      "heapBytes": 76099416,
+      "elapsedMs": 35552.625896
+    },
+    {
+      "committed": 4859,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 35655.353718
+    },
+    {
+      "committed": 4875,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 35759.115441
+    },
+    {
+      "committed": 4892,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 35859.2538
+    },
+    {
+      "committed": 4910,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 35962.250087
+    },
+    {
+      "committed": 4927,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 36066.186906
+    },
+    {
+      "committed": 4945,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 36166.770344
+    },
+    {
+      "committed": 4962,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 36269.114399
+    },
+    {
+      "committed": 4979,
+      "submitted": 10000,
+      "heapBytes": 78196568,
+      "elapsedMs": 36372.830623
+    },
+    {
+      "committed": 4995,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 36475.380273
+    },
+    {
+      "committed": 5009,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 36579.766593
+    },
+    {
+      "committed": 5023,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 36683.879482
+    },
+    {
+      "committed": 5036,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 36788.930329
+    },
+    {
+      "committed": 5052,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 36889.246176
+    },
+    {
+      "committed": 5070,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 36993.39991
+    },
+    {
+      "committed": 5088,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 37097.789144
+    },
+    {
+      "committed": 5104,
+      "submitted": 10000,
+      "heapBytes": 80293720,
+      "elapsedMs": 37201.984658
+    },
+    {
+      "committed": 5122,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37302.329366
+    },
+    {
+      "committed": 5139,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37403.674258
+    },
+    {
+      "committed": 5156,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37504.280708
+    },
+    {
+      "committed": 5174,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37608.44299
+    },
+    {
+      "committed": 5190,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37709.72288
+    },
+    {
+      "committed": 5206,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37810.216949
+    },
+    {
+      "committed": 5224,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 37914.348304
+    },
+    {
+      "committed": 5241,
+      "submitted": 10000,
+      "heapBytes": 82390872,
+      "elapsedMs": 38018.317153
+    },
+    {
+      "committed": 5257,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38122.254026
+    },
+    {
+      "committed": 5274,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38226.373234
+    },
+    {
+      "committed": 5291,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38330.54488
+    },
+    {
+      "committed": 5309,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38434.425507
+    },
+    {
+      "committed": 5326,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38537.486113
+    },
+    {
+      "committed": 5343,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38637.784309
+    },
+    {
+      "committed": 5361,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38741.66685
+    },
+    {
+      "committed": 5378,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38844.51453
+    },
+    {
+      "committed": 5388,
+      "submitted": 10000,
+      "heapBytes": 84488024,
+      "elapsedMs": 38947.554352
+    },
+    {
+      "committed": 5402,
+      "submitted": 10000,
+      "heapBytes": 32682264,
+      "elapsedMs": 39050.325292
+    },
+    {
+      "committed": 5419,
+      "submitted": 10000,
+      "heapBytes": 32682264,
+      "elapsedMs": 39154.136109
+    },
+    {
+      "committed": 5435,
+      "submitted": 10000,
+      "heapBytes": 32682264,
+      "elapsedMs": 39258.010799
+    },
+    {
+      "committed": 5453,
+      "submitted": 10000,
+      "heapBytes": 32682264,
+      "elapsedMs": 39361.245148
+    },
+    {
+      "committed": 5471,
+      "submitted": 10000,
+      "heapBytes": 32682264,
+      "elapsedMs": 39464.7851
+    },
+    {
+      "committed": 5489,
+      "submitted": 10000,
+      "heapBytes": 32682264,
+      "elapsedMs": 39568.676587
+    },
+    {
+      "committed": 5507,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 39668.878832
+    },
+    {
+      "committed": 5525,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 39772.731201
+    },
+    {
+      "committed": 5541,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 39875.125239
+    },
+    {
+      "committed": 5558,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 39978.816155
+    },
+    {
+      "committed": 5575,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 40080.611217
+    },
+    {
+      "committed": 5592,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 40181.042635
+    },
+    {
+      "committed": 5610,
+      "submitted": 10000,
+      "heapBytes": 34779416,
+      "elapsedMs": 40284.438787
+    },
+    {
+      "committed": 5627,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 40386.281403
+    },
+    {
+      "committed": 5643,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 40486.442961
+    },
+    {
+      "committed": 5657,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 40590.5725
+    },
+    {
+      "committed": 5670,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 40695.643862
+    },
+    {
+      "committed": 5687,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 40797.012509
+    },
+    {
+      "committed": 5704,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 40898.190808
+    },
+    {
+      "committed": 5720,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 41001.97568
+    },
+    {
+      "committed": 5738,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 41106.283643
+    },
+    {
+      "committed": 5750,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 41208.584034
+    },
+    {
+      "committed": 5764,
+      "submitted": 10000,
+      "heapBytes": 36876568,
+      "elapsedMs": 41313.299471
+    },
+    {
+      "committed": 5777,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 41415.606385
+    },
+    {
+      "committed": 5785,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 41518.597107
+    },
+    {
+      "committed": 5795,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 41621.761293
+    },
+    {
+      "committed": 5804,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 41725.321455
+    },
+    {
+      "committed": 5813,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 41831.759249
+    },
+    {
+      "committed": 5826,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 41935.229561
+    },
+    {
+      "committed": 5841,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 42038.233935
+    },
+    {
+      "committed": 5852,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 42141.713336
+    },
+    {
+      "committed": 5866,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 42245.420921
+    },
+    {
+      "committed": 5878,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 42347.057908
+    },
+    {
+      "committed": 5892,
+      "submitted": 10000,
+      "heapBytes": 38973720,
+      "elapsedMs": 42449.322891
+    },
+    {
+      "committed": 5906,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 42551.865811
+    },
+    {
+      "committed": 5918,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 42652.028429
+    },
+    {
+      "committed": 5935,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 42752.759641
+    },
+    {
+      "committed": 5951,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 42852.874504
+    },
+    {
+      "committed": 5968,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 42955.34892
+    },
+    {
+      "committed": 5985,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 43059.261948
+    },
+    {
+      "committed": 5999,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 43161.103963
+    },
+    {
+      "committed": 6014,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 43264.046037
+    },
+    {
+      "committed": 6029,
+      "submitted": 10000,
+      "heapBytes": 41070872,
+      "elapsedMs": 43368.270413
+    },
+    {
+      "committed": 6041,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 43472.207364
+    },
+    {
+      "committed": 6056,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 43575.286825
+    },
+    {
+      "committed": 6074,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 43676.255976
+    },
+    {
+      "committed": 6092,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 43780.532442
+    },
+    {
+      "committed": 6108,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 43884.973262
+    },
+    {
+      "committed": 6124,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 43988.85854
+    },
+    {
+      "committed": 6139,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 44093.109908
+    },
+    {
+      "committed": 6155,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 44198.111662
+    },
+    {
+      "committed": 6171,
+      "submitted": 10000,
+      "heapBytes": 43168024,
+      "elapsedMs": 44301.488925
+    },
+    {
+      "committed": 6188,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 44404.241712
+    },
+    {
+      "committed": 6207,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 44508.235405
+    },
+    {
+      "committed": 6225,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 44609.338877
+    },
+    {
+      "committed": 6240,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 44709.587516
+    },
+    {
+      "committed": 6256,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 44813.985815
+    },
+    {
+      "committed": 6269,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 44914.105134
+    },
+    {
+      "committed": 6284,
+      "submitted": 10000,
+      "heapBytes": 45265176,
+      "elapsedMs": 45014.761574
+    },
+    {
+      "committed": 6299,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45115.508923
+    },
+    {
+      "committed": 6315,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45218.21114
+    },
+    {
+      "committed": 6332,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45322.373473
+    },
+    {
+      "committed": 6350,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45427.339726
+    },
+    {
+      "committed": 6368,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45530.465829
+    },
+    {
+      "committed": 6385,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45634.845379
+    },
+    {
+      "committed": 6400,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45736.662379
+    },
+    {
+      "committed": 6417,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45836.896275
+    },
+    {
+      "committed": 6432,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 45938.210401
+    },
+    {
+      "committed": 6448,
+      "submitted": 10000,
+      "heapBytes": 47362328,
+      "elapsedMs": 46041.955738
+    },
+    {
+      "committed": 6464,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46146.974721
+    },
+    {
+      "committed": 6479,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46251.141825
+    },
+    {
+      "committed": 6496,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46351.845732
+    },
+    {
+      "committed": 6510,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46456.142202
+    },
+    {
+      "committed": 6524,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46556.230499
+    },
+    {
+      "committed": 6539,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46658.584481
+    },
+    {
+      "committed": 6554,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46759.801914
+    },
+    {
+      "committed": 6568,
+      "submitted": 10000,
+      "heapBytes": 49459480,
+      "elapsedMs": 46860.105134
+    },
+    {
+      "committed": 6582,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 46962.910529
+    },
+    {
+      "committed": 6600,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47067.082231
+    },
+    {
+      "committed": 6617,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47167.315825
+    },
+    {
+      "committed": 6633,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47270.261096
+    },
+    {
+      "committed": 6650,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47372.825567
+    },
+    {
+      "committed": 6665,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47475.716454
+    },
+    {
+      "committed": 6683,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47580.583443
+    },
+    {
+      "committed": 6701,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47685.548797
+    },
+    {
+      "committed": 6718,
+      "submitted": 10000,
+      "heapBytes": 51556632,
+      "elapsedMs": 47786.300979
+    },
+    {
+      "committed": 6735,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 47886.528151
+    },
+    {
+      "committed": 6752,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 47990.59001
+    },
+    {
+      "committed": 6767,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48093.934025
+    },
+    {
+      "committed": 6781,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48195.742987
+    },
+    {
+      "committed": 6793,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48300.302371
+    },
+    {
+      "committed": 6805,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48402.021333
+    },
+    {
+      "committed": 6821,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48504.539799
+    },
+    {
+      "committed": 6835,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48604.64136
+    },
+    {
+      "committed": 6849,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48708.241737
+    },
+    {
+      "committed": 6863,
+      "submitted": 10000,
+      "heapBytes": 53653784,
+      "elapsedMs": 48811.649326
+    },
+    {
+      "committed": 6876,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 48911.899606
+    },
+    {
+      "committed": 6888,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49012.482905
+    },
+    {
+      "committed": 6900,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49115.554597
+    },
+    {
+      "committed": 6911,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49220.101188
+    },
+    {
+      "committed": 6924,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49320.445604
+    },
+    {
+      "committed": 6936,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49423.34136
+    },
+    {
+      "committed": 6948,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49523.955214
+    },
+    {
+      "committed": 6958,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49626.891049
+    },
+    {
+      "committed": 6970,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49730.515899
+    },
+    {
+      "committed": 6985,
+      "submitted": 10000,
+      "heapBytes": 55750936,
+      "elapsedMs": 49835.307551
+    },
+    {
+      "committed": 7000,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 49938.236477
+    },
+    {
+      "committed": 7014,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50041.50088
+    },
+    {
+      "committed": 7027,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50146.046053
+    },
+    {
+      "committed": 7037,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50248.207745
+    },
+    {
+      "committed": 7049,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50352.144609
+    },
+    {
+      "committed": 7062,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50455.696643
+    },
+    {
+      "committed": 7075,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50558.257446
+    },
+    {
+      "committed": 7082,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50658.388259
+    },
+    {
+      "committed": 7097,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50760.063571
+    },
+    {
+      "committed": 7113,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50862.293467
+    },
+    {
+      "committed": 7129,
+      "submitted": 10000,
+      "heapBytes": 57848088,
+      "elapsedMs": 50966.000696
+    },
+    {
+      "committed": 7141,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51066.424998
+    },
+    {
+      "committed": 7156,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51170.821233
+    },
+    {
+      "committed": 7170,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51274.729478
+    },
+    {
+      "committed": 7182,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51379.600135
+    },
+    {
+      "committed": 7193,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51480.998114
+    },
+    {
+      "committed": 7204,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51582.808446
+    },
+    {
+      "committed": 7216,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51685.719516
+    },
+    {
+      "committed": 7226,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51788.850017
+    },
+    {
+      "committed": 7237,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51894.086701
+    },
+    {
+      "committed": 7249,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 51997.226936
+    },
+    {
+      "committed": 7262,
+      "submitted": 10000,
+      "heapBytes": 59945240,
+      "elapsedMs": 52101.720036
+    },
+    {
+      "committed": 7278,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52203.440448
+    },
+    {
+      "committed": 7293,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52303.781293
+    },
+    {
+      "committed": 7307,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52404.481268
+    },
+    {
+      "committed": 7322,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52507.935596
+    },
+    {
+      "committed": 7336,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52608.090828
+    },
+    {
+      "committed": 7351,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52712.129814
+    },
+    {
+      "committed": 7365,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52816.297611
+    },
+    {
+      "committed": 7378,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 52920.374988
+    },
+    {
+      "committed": 7393,
+      "submitted": 10000,
+      "heapBytes": 62042392,
+      "elapsedMs": 53024.053592
+    },
+    {
+      "committed": 7407,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53127.226628
+    },
+    {
+      "committed": 7416,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53231.427005
+    },
+    {
+      "committed": 7426,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53335.128223
+    },
+    {
+      "committed": 7435,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53436.306249
+    },
+    {
+      "committed": 7446,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53539.619042
+    },
+    {
+      "committed": 7456,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53643.930107
+    },
+    {
+      "committed": 7466,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53748.052424
+    },
+    {
+      "committed": 7477,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53850.903814
+    },
+    {
+      "committed": 7489,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 53952.584184
+    },
+    {
+      "committed": 7499,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 54055.288943
+    },
+    {
+      "committed": 7510,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 54158.041387
+    },
+    {
+      "committed": 7521,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 54259.044793
+    },
+    {
+      "committed": 7533,
+      "submitted": 10000,
+      "heapBytes": 64139544,
+      "elapsedMs": 54359.691766
+    },
+    {
+      "committed": 7547,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 54459.892845
+    },
+    {
+      "committed": 7561,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 54561.708429
+    },
+    {
+      "committed": 7573,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 54663.295134
+    },
+    {
+      "committed": 7588,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 54767.267241
+    },
+    {
+      "committed": 7599,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 54867.746134
+    },
+    {
+      "committed": 7612,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 54970.7858
+    },
+    {
+      "committed": 7626,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 55075.011443
+    },
+    {
+      "committed": 7641,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 55179.330017
+    },
+    {
+      "committed": 7656,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 55283.284896
+    },
+    {
+      "committed": 7667,
+      "submitted": 10000,
+      "heapBytes": 66236696,
+      "elapsedMs": 55386.078001
+    },
+    {
+      "committed": 7679,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 55490.595462
+    },
+    {
+      "committed": 7690,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 55593.868559
+    },
+    {
+      "committed": 7699,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 55694.411064
+    },
+    {
+      "committed": 7709,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 55796.986184
+    },
+    {
+      "committed": 7720,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 55897.156495
+    },
+    {
+      "committed": 7731,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 55997.310426
+    },
+    {
+      "committed": 7741,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56097.475621
+    },
+    {
+      "committed": 7752,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56201.300325
+    },
+    {
+      "committed": 7764,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56305.711099
+    },
+    {
+      "committed": 7774,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56410.551717
+    },
+    {
+      "committed": 7786,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56515.656241
+    },
+    {
+      "committed": 7797,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56615.875694
+    },
+    {
+      "committed": 7808,
+      "submitted": 10000,
+      "heapBytes": 68333848,
+      "elapsedMs": 56716.663523
+    },
+    {
+      "committed": 7821,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 56819.5836
+    },
+    {
+      "committed": 7834,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 56919.77184
+    },
+    {
+      "committed": 7850,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57024.545033
+    },
+    {
+      "committed": 7862,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57128.588798
+    },
+    {
+      "committed": 7876,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57231.291738
+    },
+    {
+      "committed": 7892,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57334.979802
+    },
+    {
+      "committed": 7908,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57439.84952
+    },
+    {
+      "committed": 7924,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57543.239592
+    },
+    {
+      "committed": 7940,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57647.036807
+    },
+    {
+      "committed": 7956,
+      "submitted": 10000,
+      "heapBytes": 70431000,
+      "elapsedMs": 57748.259482
+    },
+    {
+      "committed": 7971,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 57849.927653
+    },
+    {
+      "committed": 7988,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 57953.217786
+    },
+    {
+      "committed": 8001,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58053.893042
+    },
+    {
+      "committed": 8012,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58158.324246
+    },
+    {
+      "committed": 8021,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58258.846069
+    },
+    {
+      "committed": 8034,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58363.529892
+    },
+    {
+      "committed": 8048,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58467.260277
+    },
+    {
+      "committed": 8059,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58572.263724
+    },
+    {
+      "committed": 8072,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58674.183569
+    },
+    {
+      "committed": 8086,
+      "submitted": 10000,
+      "heapBytes": 72528152,
+      "elapsedMs": 58778.119673
+    },
+    {
+      "committed": 8099,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 58880.617383
+    },
+    {
+      "committed": 8112,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 58985.072924
+    },
+    {
+      "committed": 8125,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59085.192096
+    },
+    {
+      "committed": 8136,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59186.796299
+    },
+    {
+      "committed": 8149,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59287.979054
+    },
+    {
+      "committed": 8165,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59391.080138
+    },
+    {
+      "committed": 8180,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59491.182065
+    },
+    {
+      "committed": 8197,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59593.28873
+    },
+    {
+      "committed": 8214,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59697.380021
+    },
+    {
+      "committed": 8230,
+      "submitted": 10000,
+      "heapBytes": 74625304,
+      "elapsedMs": 59798.045388
+    },
+    {
+      "committed": 8246,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 59899.237006
+    },
+    {
+      "committed": 8264,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 60001.252668
+    },
+    {
+      "committed": 8280,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 60106.267145
+    },
+    {
+      "committed": 8298,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 60210.331674
+    },
+    {
+      "committed": 8315,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 60312.758298
+    },
+    {
+      "committed": 8334,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 60416.377973
+    },
+    {
+      "committed": 8351,
+      "submitted": 10000,
+      "heapBytes": 76722456,
+      "elapsedMs": 60519.732531
+    },
+    {
+      "committed": 8364,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 60624.580258
+    },
+    {
+      "committed": 8380,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 60726.52499
+    },
+    {
+      "committed": 8397,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 60830.48408
+    },
+    {
+      "committed": 8415,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 60930.638575
+    },
+    {
+      "committed": 8433,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 61030.877032
+    },
+    {
+      "committed": 8452,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 61135.931438
+    },
+    {
+      "committed": 8471,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 61240.298612
+    },
+    {
+      "committed": 8489,
+      "submitted": 10000,
+      "heapBytes": 78819608,
+      "elapsedMs": 61343.076677
+    },
+    {
+      "committed": 8505,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 61446.972185
+    },
+    {
+      "committed": 8521,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 61551.895383
+    },
+    {
+      "committed": 8535,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 61652.859479
+    },
+    {
+      "committed": 8550,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 61758.145114
+    },
+    {
+      "committed": 8564,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 61858.634354
+    },
+    {
+      "committed": 8582,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 61962.005381
+    },
+    {
+      "committed": 8588,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 62066.570595
+    },
+    {
+      "committed": 8591,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 62167.067362
+    },
+    {
+      "committed": 8606,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 62268.207492
+    },
+    {
+      "committed": 8622,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 62370.228284
+    },
+    {
+      "committed": 8639,
+      "submitted": 10000,
+      "heapBytes": 80916760,
+      "elapsedMs": 62470.34013
+    },
+    {
+      "committed": 8657,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 62574.361848
+    },
+    {
+      "committed": 8674,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 62678.222328
+    },
+    {
+      "committed": 8692,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 62781.381392
+    },
+    {
+      "committed": 8711,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 62885.229578
+    },
+    {
+      "committed": 8727,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 62989.448878
+    },
+    {
+      "committed": 8745,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 63091.310203
+    },
+    {
+      "committed": 8762,
+      "submitted": 10000,
+      "heapBytes": 83013912,
+      "elapsedMs": 63195.214811
+    },
+    {
+      "committed": 8780,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63300.074011
+    },
+    {
+      "committed": 8797,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63403.217756
+    },
+    {
+      "committed": 8812,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63503.986253
+    },
+    {
+      "committed": 8825,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63607.723034
+    },
+    {
+      "committed": 8838,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63707.846549
+    },
+    {
+      "committed": 8855,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63810.967729
+    },
+    {
+      "committed": 8872,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 63914.715518
+    },
+    {
+      "committed": 8888,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 64014.80184
+    },
+    {
+      "committed": 8904,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 64117.380549
+    },
+    {
+      "committed": 8921,
+      "submitted": 10000,
+      "heapBytes": 85111064,
+      "elapsedMs": 64221.11907
+    },
+    {
+      "committed": 8934,
+      "submitted": 10000,
+      "heapBytes": 33625808,
+      "elapsedMs": 64324.498158
+    },
+    {
+      "committed": 8953,
+      "submitted": 10000,
+      "heapBytes": 33625808,
+      "elapsedMs": 64428.60415
+    },
+    {
+      "committed": 8972,
+      "submitted": 10000,
+      "heapBytes": 33625808,
+      "elapsedMs": 64531.333034
+    },
+    {
+      "committed": 8990,
+      "submitted": 10000,
+      "heapBytes": 33625808,
+      "elapsedMs": 64633.373358
+    },
+    {
+      "committed": 9008,
+      "submitted": 10000,
+      "heapBytes": 33625808,
+      "elapsedMs": 64734.146043
+    },
+    {
+      "committed": 9026,
+      "submitted": 10000,
+      "heapBytes": 33625808,
+      "elapsedMs": 64835.399348
+    },
+    {
+      "committed": 9044,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 64935.546551
+    },
+    {
+      "committed": 9063,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 65039.238871
+    },
+    {
+      "committed": 9079,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 65141.231921
+    },
+    {
+      "committed": 9096,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 65242.150487
+    },
+    {
+      "committed": 9115,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 65346.961255
+    },
+    {
+      "committed": 9133,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 65451.041029
+    },
+    {
+      "committed": 9152,
+      "submitted": 10000,
+      "heapBytes": 35722960,
+      "elapsedMs": 65554.817096
+    },
+    {
+      "committed": 9169,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 65657.673224
+    },
+    {
+      "committed": 9187,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 65760.238075
+    },
+    {
+      "committed": 9204,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 65860.544353
+    },
+    {
+      "committed": 9221,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 65964.366432
+    },
+    {
+      "committed": 9238,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 66068.270096
+    },
+    {
+      "committed": 9255,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 66171.359936
+    },
+    {
+      "committed": 9271,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 66274.318346
+    },
+    {
+      "committed": 9289,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 66377.425183
+    },
+    {
+      "committed": 9306,
+      "submitted": 10000,
+      "heapBytes": 37820112,
+      "elapsedMs": 66480.922397
+    },
+    {
+      "committed": 9322,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 66581.057842
+    },
+    {
+      "committed": 9339,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 66684.257154
+    },
+    {
+      "committed": 9355,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 66787.314533
+    },
+    {
+      "committed": 9372,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 66887.405616
+    },
+    {
+      "committed": 9390,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 66991.366063
+    },
+    {
+      "committed": 9409,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 67096.223444
+    },
+    {
+      "committed": 9427,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 67199.670535
+    },
+    {
+      "committed": 9445,
+      "submitted": 10000,
+      "heapBytes": 39917264,
+      "elapsedMs": 67304.413211
+    },
+    {
+      "committed": 9461,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 67408.64517
+    },
+    {
+      "committed": 9478,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 67511.196944
+    },
+    {
+      "committed": 9496,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 67613.794019
+    },
+    {
+      "committed": 9514,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 67713.917431
+    },
+    {
+      "committed": 9533,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 67814.109924
+    },
+    {
+      "committed": 9551,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 67914.228406
+    },
+    {
+      "committed": 9570,
+      "submitted": 10000,
+      "heapBytes": 42014416,
+      "elapsedMs": 68017.731665
+    },
+    {
+      "committed": 9587,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68117.838101
+    },
+    {
+      "committed": 9606,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68221.68476
+    },
+    {
+      "committed": 9623,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68321.909773
+    },
+    {
+      "committed": 9642,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68424.161369
+    },
+    {
+      "committed": 9660,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68524.28945
+    },
+    {
+      "committed": 9678,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68626.909703
+    },
+    {
+      "committed": 9696,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68730.569036
+    },
+    {
+      "committed": 9714,
+      "submitted": 10000,
+      "heapBytes": 44111568,
+      "elapsedMs": 68832.244598
+    },
+    {
+      "committed": 9731,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 68935.37397
+    },
+    {
+      "committed": 9748,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69036.326065
+    },
+    {
+      "committed": 9763,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69139.426369
+    },
+    {
+      "committed": 9777,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69243.886211
+    },
+    {
+      "committed": 9793,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69347.225607
+    },
+    {
+      "committed": 9811,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69450.049358
+    },
+    {
+      "committed": 9830,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69553.538058
+    },
+    {
+      "committed": 9846,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69657.500092
+    },
+    {
+      "committed": 9863,
+      "submitted": 10000,
+      "heapBytes": 46208720,
+      "elapsedMs": 69761.276737
+    },
+    {
+      "committed": 9879,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 69862.634596
+    },
+    {
+      "committed": 9893,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 69962.810275
+    },
+    {
+      "committed": 9910,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70067.399433
+    },
+    {
+      "committed": 9922,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70167.915504
+    },
+    {
+      "committed": 9932,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70268.494628
+    },
+    {
+      "committed": 9943,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70370.478927
+    },
+    {
+      "committed": 9955,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70474.479424
+    },
+    {
+      "committed": 9971,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70574.673963
+    },
+    {
+      "committed": 9980,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70675.015173
+    },
+    {
+      "committed": 9994,
+      "submitted": 10000,
+      "heapBytes": 48305872,
+      "elapsedMs": 70775.614285
+    }
+  ],
+  "concurrency": 1,
+  "producerCommitBatch": 100,
+  "maxOutstandingSampled": 9839,
+  "stored": 10000,
+  "messages": 10000,
+  "errors": 0,
+  "dockerSamples": [
+    {
+      "sampledAt": 1793810915.1499379,
+      "containers": [
+        {
+          "BlockIO": "512kB / 23.2MB",
+          "CPUPerc": "0.73%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.90%",
+          "MemUsage": "305.4MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "1.08MB / 1.01MB",
+          "PIDs": "243"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "0.00%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.53%",
+          "MemUsage": "41.33MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "313kB / 159kB",
+          "PIDs": "11"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810918.173567,
+      "containers": [
+        {
+          "BlockIO": "512kB / 23.2MB",
+          "CPUPerc": "0.93%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.91%",
+          "MemUsage": "306.4MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "1.08MB / 1.01MB",
+          "PIDs": "243"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "0.00%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.53%",
+          "MemUsage": "41.72MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "313kB / 159kB",
+          "PIDs": "11"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810921.746346,
+      "containers": [
+        {
+          "BlockIO": "516kB / 23.2MB",
+          "CPUPerc": "0.93%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.4MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "1.08MB / 1.01MB",
+          "PIDs": "243"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "0.00%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.53%",
+          "MemUsage": "41.34MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "313kB / 159kB",
+          "PIDs": "11"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810924.765999,
+      "containers": [
+        {
+          "BlockIO": "516kB / 23.2MB",
+          "CPUPerc": "6.94%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.90%",
+          "MemUsage": "305.4MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "1.09MB / 1.01MB",
+          "PIDs": "243"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "5.22%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.65%",
+          "MemUsage": "50.96MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "324kB / 170kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810927.78587,
+      "containers": [
+        {
+          "BlockIO": "516kB / 23.2MB",
+          "CPUPerc": "102.36%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "2.1MB / 1.07MB",
+          "PIDs": "248"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "7.68%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "50.2MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "350kB / 175kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810931.354084,
+      "containers": [
+        {
+          "BlockIO": "520kB / 24MB",
+          "CPUPerc": "13.87%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.90%",
+          "MemUsage": "306MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "2.2MB / 1.68MB",
+          "PIDs": "248"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "9.54%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "49.81MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "1.01MB / 298kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810934.4000158,
+      "containers": [
+        {
+          "BlockIO": "520kB / 24MB",
+          "CPUPerc": "94.28%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "14.6MB / 2.22MB",
+          "PIDs": "249"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "4.29%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.63%",
+          "MemUsage": "49.73MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "1.17MB / 330kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810937.4047098,
+      "containers": [
+        {
+          "BlockIO": "520kB / 24MB",
+          "CPUPerc": "16.30%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.6MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "22.2MB / 2.81MB",
+          "PIDs": "249"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "11.04%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "50.16MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "1.59MB / 408kB",
+          "PIDs": "22"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810940.9796212,
+      "containers": [
+        {
+          "BlockIO": "524kB / 24MB",
+          "CPUPerc": "16.87%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.94%",
+          "MemUsage": "308.8MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "22.4MB / 3.56MB",
+          "PIDs": "259"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "10.68%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "49.86MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "2.37MB / 555kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810944.137641,
+      "containers": [
+        {
+          "BlockIO": "524kB / 24MB",
+          "CPUPerc": "15.92%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.5MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "22.6MB / 4.54MB",
+          "PIDs": "249"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "11.19%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "49.8MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "2.92MB / 656kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810947.154063,
+      "containers": [
+        {
+          "BlockIO": "524kB / 43.9MB",
+          "CPUPerc": "15.77%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "22.7MB / 5.29MB",
+          "PIDs": "249"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "11.25%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.63%",
+          "MemUsage": "49.72MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "3.48MB / 763kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810950.7151308,
+      "containers": [
+        {
+          "BlockIO": "528kB / 43.9MB",
+          "CPUPerc": "17.66%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.94%",
+          "MemUsage": "308.7MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "22.9MB / 6.34MB",
+          "PIDs": "249"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "14.85%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "49.88MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "4.06MB / 871kB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810954.1370409,
+      "containers": [
+        {
+          "BlockIO": "528kB / 43.9MB",
+          "CPUPerc": "16.41%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.5MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "23.1MB / 7.36MB",
+          "PIDs": "249"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "10.82%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "50.17MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "5.06MB / 1.06MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810957.1552799,
+      "containers": [
+        {
+          "BlockIO": "528kB / 44.1MB",
+          "CPUPerc": "15.28%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.94%",
+          "MemUsage": "308.7MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "23.2MB / 8.16MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 692kB",
+          "CPUPerc": "8.06%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.63%",
+          "MemUsage": "49.68MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "5.67MB / 1.17MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810960.719549,
+      "containers": [
+        {
+          "BlockIO": "532kB / 44.1MB",
+          "CPUPerc": "14.93%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308.3MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "23.4MB / 9.19MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 700kB",
+          "CPUPerc": "10.86%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.64%",
+          "MemUsage": "50.05MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "6.25MB / 1.28MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810964.1370418,
+      "containers": [
+        {
+          "BlockIO": "532kB / 44.1MB",
+          "CPUPerc": "16.49%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.6MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "23.6MB / 10.2MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 700kB",
+          "CPUPerc": "10.75%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.66%",
+          "MemUsage": "51.43MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "7.23MB / 1.46MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810967.155942,
+      "containers": [
+        {
+          "BlockIO": "532kB / 44.1MB",
+          "CPUPerc": "16.69%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.94%",
+          "MemUsage": "308.6MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "23.7MB / 11.1MB",
+          "PIDs": "260"
+        },
+        {
+          "BlockIO": "0B / 700kB",
+          "CPUPerc": "10.33%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.67%",
+          "MemUsage": "52.27MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "7.91MB / 1.59MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810970.716706,
+      "containers": [
+        {
+          "BlockIO": "537kB / 44.1MB",
+          "CPUPerc": "15.74%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.92%",
+          "MemUsage": "307.5MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "23.9MB / 12.2MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 700kB",
+          "CPUPerc": "11.07%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.67%",
+          "MemUsage": "52.66MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "8.49MB / 1.7MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810974.1633039,
+      "containers": [
+        {
+          "BlockIO": "537kB / 44.1MB",
+          "CPUPerc": "17.08%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.94%",
+          "MemUsage": "309.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "24.1MB / 13.1MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 3.98MB",
+          "CPUPerc": "17.03%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.68%",
+          "MemUsage": "53.63MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "9.41MB / 1.87MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810977.181611,
+      "containers": [
+        {
+          "BlockIO": "537kB / 44.1MB",
+          "CPUPerc": "18.26%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "24.2MB / 13.9MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 3.98MB",
+          "CPUPerc": "11.61%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.69%",
+          "MemUsage": "54.18MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "10.1MB / 2MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810980.7473202,
+      "containers": [
+        {
+          "BlockIO": "541kB / 44.1MB",
+          "CPUPerc": "16.50%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "24.4MB / 14.9MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 3.98MB",
+          "CPUPerc": "11.18%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.70%",
+          "MemUsage": "54.48MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "10.6MB / 2.1MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810984.173541,
+      "containers": [
+        {
+          "BlockIO": "541kB / 44.1MB",
+          "CPUPerc": "16.71%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "307.7MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "24.5MB / 15.7MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 3.98MB",
+          "CPUPerc": "21.26%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.71%",
+          "MemUsage": "55.54MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "11.4MB / 2.25MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810987.199701,
+      "containers": [
+        {
+          "BlockIO": "541kB / 44.1MB",
+          "CPUPerc": "16.31%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "307.9MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "24.6MB / 16.4MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 3.98MB",
+          "CPUPerc": "13.18%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.72%",
+          "MemUsage": "56.37MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "11.9MB / 2.35MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810990.7753541,
+      "containers": [
+        {
+          "BlockIO": "545kB / 44.1MB",
+          "CPUPerc": "16.67%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308.4MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "24.8MB / 17.2MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 3.98MB",
+          "CPUPerc": "12.48%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.73%",
+          "MemUsage": "56.86MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "12.4MB / 2.43MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810994.164237,
+      "containers": [
+        {
+          "BlockIO": "545kB / 44.1MB",
+          "CPUPerc": "14.85%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "307.8MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "25MB / 18.2MB",
+          "PIDs": "257"
+        },
+        {
+          "BlockIO": "0B / 4.39MB",
+          "CPUPerc": "14.95%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.75%",
+          "MemUsage": "58.42MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "13.3MB / 2.6MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793810997.186543,
+      "containers": [
+        {
+          "BlockIO": "545kB / 44.1MB",
+          "CPUPerc": "16.48%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "307.9MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "25.1MB / 19.1MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 4.65MB",
+          "CPUPerc": "11.09%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.75%",
+          "MemUsage": "58.95MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "14MB / 2.74MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811000.75265,
+      "containers": [
+        {
+          "BlockIO": "549kB / 44.1MB",
+          "CPUPerc": "16.72%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.93%",
+          "MemUsage": "308.4MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "25.3MB / 20.2MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 4.92MB",
+          "CPUPerc": "16.43%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.76%",
+          "MemUsage": "59.39MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "14.6MB / 2.85MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811004.159551,
+      "containers": [
+        {
+          "BlockIO": "549kB / 44.1MB",
+          "CPUPerc": "7.77%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.91%",
+          "MemUsage": "306.3MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "25.4MB / 20.7MB",
+          "PIDs": "247"
+        },
+        {
+          "BlockIO": "0B / 24.6MB",
+          "CPUPerc": "7.71%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.67%",
+          "MemUsage": "52.41MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "15.2MB / 2.96MB",
+          "PIDs": "11"
+        }
+      ]
+    }
+  ]
+}

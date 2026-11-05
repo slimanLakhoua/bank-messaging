@@ -1,0 +1,2290 @@
+{
+  "httpRequests": 965,
+  "durationSeconds": 38.80843795,
+  "warmupMessages": 500,
+  "httpErrors": 0,
+  "backout": 0,
+  "httpConcurrency": 2,
+  "messagesPerSecond": 257.6759212232091,
+  "sqlPool": 5,
+  "processCpuCoreEquivalent": 1.3260357983565787,
+  "latencyP95Ms": 30700.624159,
+  "java": "21+35-LTS-2513",
+  "producerThreads": 1,
+  "inputDepthFinal": 0,
+  "persistent": true,
+  "timestamp": "2026-11-04T21:52:15.706204Z",
+  "latencyP99Ms": 32202.489427,
+  "duplicates": 0,
+  "httpP95Ms": 41.225393,
+  "os": "Mac OS X",
+  "httpP99Ms": 62.045368,
+  "peakHeapBytesSampled": 90533792,
+  "receivedAttempts": 10000,
+  "payloadBytes": 1024,
+  "sendSeconds": 6.283487491,
+  "samples": [
+    {
+      "committed": 0,
+      "submitted": 0,
+      "heapBytes": 68856952,
+      "elapsedMs": 186.71167
+    },
+    {
+      "committed": 0,
+      "submitted": 100,
+      "heapBytes": 73051256,
+      "elapsedMs": 290.870432
+    },
+    {
+      "committed": 12,
+      "submitted": 269,
+      "heapBytes": 77245560,
+      "elapsedMs": 393.852071
+    },
+    {
+      "committed": 21,
+      "submitted": 400,
+      "heapBytes": 83537016,
+      "elapsedMs": 494.580076
+    },
+    {
+      "committed": 25,
+      "submitted": 502,
+      "heapBytes": 87731320,
+      "elapsedMs": 597.51878
+    },
+    {
+      "committed": 33,
+      "submitted": 601,
+      "heapBytes": 58275032,
+      "elapsedMs": 700.385309
+    },
+    {
+      "committed": 41,
+      "submitted": 781,
+      "heapBytes": 62469336,
+      "elapsedMs": 804.329528
+    },
+    {
+      "committed": 49,
+      "submitted": 900,
+      "heapBytes": 64566488,
+      "elapsedMs": 906.369812
+    },
+    {
+      "committed": 57,
+      "submitted": 1052,
+      "heapBytes": 66663640,
+      "elapsedMs": 1006.543998
+    },
+    {
+      "committed": 67,
+      "submitted": 1200,
+      "heapBytes": 68760792,
+      "elapsedMs": 1107.004142
+    },
+    {
+      "committed": 79,
+      "submitted": 1400,
+      "heapBytes": 70857944,
+      "elapsedMs": 1207.182919
+    },
+    {
+      "committed": 89,
+      "submitted": 1549,
+      "heapBytes": 72955096,
+      "elapsedMs": 1308.5513
+    },
+    {
+      "committed": 97,
+      "submitted": 1700,
+      "heapBytes": 75052248,
+      "elapsedMs": 1411.752133
+    },
+    {
+      "committed": 105,
+      "submitted": 1900,
+      "heapBytes": 77149400,
+      "elapsedMs": 1516.669284
+    },
+    {
+      "committed": 114,
+      "submitted": 2042,
+      "heapBytes": 79246552,
+      "elapsedMs": 1616.798485
+    },
+    {
+      "committed": 122,
+      "submitted": 2200,
+      "heapBytes": 81343704,
+      "elapsedMs": 1717.711062
+    },
+    {
+      "committed": 126,
+      "submitted": 2317,
+      "heapBytes": 83440856,
+      "elapsedMs": 1817.963313
+    },
+    {
+      "committed": 138,
+      "submitted": 2500,
+      "heapBytes": 85538008,
+      "elapsedMs": 1921.801343
+    },
+    {
+      "committed": 146,
+      "submitted": 2600,
+      "heapBytes": 87635160,
+      "elapsedMs": 2025.019143
+    },
+    {
+      "committed": 154,
+      "submitted": 2800,
+      "heapBytes": 59028552,
+      "elapsedMs": 2128.52053
+    },
+    {
+      "committed": 160,
+      "submitted": 2900,
+      "heapBytes": 61125704,
+      "elapsedMs": 2233.187265
+    },
+    {
+      "committed": 170,
+      "submitted": 3085,
+      "heapBytes": 63222856,
+      "elapsedMs": 2333.364012
+    },
+    {
+      "committed": 175,
+      "submitted": 3200,
+      "heapBytes": 65320008,
+      "elapsedMs": 2437.837742
+    },
+    {
+      "committed": 183,
+      "submitted": 3376,
+      "heapBytes": 67417160,
+      "elapsedMs": 2541.795597
+    },
+    {
+      "committed": 191,
+      "submitted": 3500,
+      "heapBytes": 69514312,
+      "elapsedMs": 2643.98461
+    },
+    {
+      "committed": 203,
+      "submitted": 3700,
+      "heapBytes": 73708616,
+      "elapsedMs": 2744.559577
+    },
+    {
+      "committed": 207,
+      "submitted": 3815,
+      "heapBytes": 73708616,
+      "elapsedMs": 2844.900441
+    },
+    {
+      "committed": 219,
+      "submitted": 4000,
+      "heapBytes": 77902920,
+      "elapsedMs": 2946.864379
+    },
+    {
+      "committed": 228,
+      "submitted": 4200,
+      "heapBytes": 80000072,
+      "elapsedMs": 3048.954258
+    },
+    {
+      "committed": 236,
+      "submitted": 4378,
+      "heapBytes": 82097224,
+      "elapsedMs": 3149.259491
+    },
+    {
+      "committed": 248,
+      "submitted": 4600,
+      "heapBytes": 84194376,
+      "elapsedMs": 3249.572476
+    },
+    {
+      "committed": 257,
+      "submitted": 4769,
+      "heapBytes": 86291528,
+      "elapsedMs": 3350.679615
+    },
+    {
+      "committed": 268,
+      "submitted": 4900,
+      "heapBytes": 88388680,
+      "elapsedMs": 3450.833749
+    },
+    {
+      "committed": 276,
+      "submitted": 5100,
+      "heapBytes": 52105888,
+      "elapsedMs": 3563.785705
+    },
+    {
+      "committed": 284,
+      "submitted": 5300,
+      "heapBytes": 54203040,
+      "elapsedMs": 3666.726188
+    },
+    {
+      "committed": 296,
+      "submitted": 5500,
+      "heapBytes": 56300192,
+      "elapsedMs": 3770.711012
+    },
+    {
+      "committed": 302,
+      "submitted": 5645,
+      "heapBytes": 58397344,
+      "elapsedMs": 3870.88651
+    },
+    {
+      "committed": 309,
+      "submitted": 5838,
+      "heapBytes": 60494496,
+      "elapsedMs": 3975.072214
+    },
+    {
+      "committed": 317,
+      "submitted": 6038,
+      "heapBytes": 62591648,
+      "elapsedMs": 4078.853127
+    },
+    {
+      "committed": 326,
+      "submitted": 6200,
+      "heapBytes": 64688800,
+      "elapsedMs": 4180.424548
+    },
+    {
+      "committed": 337,
+      "submitted": 6400,
+      "heapBytes": 66785952,
+      "elapsedMs": 4283.17595
+    },
+    {
+      "committed": 346,
+      "submitted": 6600,
+      "heapBytes": 68883104,
+      "elapsedMs": 4383.46467
+    },
+    {
+      "committed": 354,
+      "submitted": 6800,
+      "heapBytes": 70980256,
+      "elapsedMs": 4487.351606
+    },
+    {
+      "committed": 362,
+      "submitted": 7000,
+      "heapBytes": 73077408,
+      "elapsedMs": 4590.574282
+    },
+    {
+      "committed": 374,
+      "submitted": 7197,
+      "heapBytes": 75174560,
+      "elapsedMs": 4691.443683
+    },
+    {
+      "committed": 382,
+      "submitted": 7400,
+      "heapBytes": 79368864,
+      "elapsedMs": 4791.549039
+    },
+    {
+      "committed": 391,
+      "submitted": 7600,
+      "heapBytes": 81466016,
+      "elapsedMs": 4891.780516
+    },
+    {
+      "committed": 403,
+      "submitted": 7800,
+      "heapBytes": 83563168,
+      "elapsedMs": 4992.021916
+    },
+    {
+      "committed": 411,
+      "submitted": 8000,
+      "heapBytes": 85660320,
+      "elapsedMs": 5092.596502
+    },
+    {
+      "committed": 416,
+      "submitted": 8100,
+      "heapBytes": 87757472,
+      "elapsedMs": 5193.091751
+    },
+    {
+      "committed": 420,
+      "submitted": 8200,
+      "heapBytes": 89854624,
+      "elapsedMs": 5293.336178
+    },
+    {
+      "committed": 428,
+      "submitted": 8400,
+      "heapBytes": 52785056,
+      "elapsedMs": 5396.079048
+    },
+    {
+      "committed": 434,
+      "submitted": 8558,
+      "heapBytes": 54882208,
+      "elapsedMs": 5500.786726
+    },
+    {
+      "committed": 441,
+      "submitted": 8704,
+      "heapBytes": 56979360,
+      "elapsedMs": 5605.034254
+    },
+    {
+      "committed": 451,
+      "submitted": 8900,
+      "heapBytes": 59076512,
+      "elapsedMs": 5709.908292
+    },
+    {
+      "committed": 460,
+      "submitted": 9100,
+      "heapBytes": 61173664,
+      "elapsedMs": 5810.163383
+    },
+    {
+      "committed": 471,
+      "submitted": 9300,
+      "heapBytes": 65367968,
+      "elapsedMs": 5912.14869
+    },
+    {
+      "committed": 481,
+      "submitted": 9500,
+      "heapBytes": 67465120,
+      "elapsedMs": 6016.687548
+    },
+    {
+      "committed": 489,
+      "submitted": 9711,
+      "heapBytes": 69562272,
+      "elapsedMs": 6118.08909
+    },
+    {
+      "committed": 497,
+      "submitted": 9900,
+      "heapBytes": 71659424,
+      "elapsedMs": 6221.869918
+    },
+    {
+      "committed": 521,
+      "submitted": 10000,
+      "heapBytes": 73756576,
+      "elapsedMs": 6324.039453
+    },
+    {
+      "committed": 554,
+      "submitted": 10000,
+      "heapBytes": 75853728,
+      "elapsedMs": 6429.112774
+    },
+    {
+      "committed": 593,
+      "submitted": 10000,
+      "heapBytes": 77950880,
+      "elapsedMs": 6533.231864
+    },
+    {
+      "committed": 622,
+      "submitted": 10000,
+      "heapBytes": 80048032,
+      "elapsedMs": 6634.381023
+    },
+    {
+      "committed": 654,
+      "submitted": 10000,
+      "heapBytes": 82145184,
+      "elapsedMs": 6735.150665
+    },
+    {
+      "committed": 686,
+      "submitted": 10000,
+      "heapBytes": 82145184,
+      "elapsedMs": 6838.245299
+    },
+    {
+      "committed": 718,
+      "submitted": 10000,
+      "heapBytes": 84242336,
+      "elapsedMs": 6941.69387
+    },
+    {
+      "committed": 750,
+      "submitted": 10000,
+      "heapBytes": 84242336,
+      "elapsedMs": 7043.931338
+    },
+    {
+      "committed": 786,
+      "submitted": 10000,
+      "heapBytes": 86339488,
+      "elapsedMs": 7144.469897
+    },
+    {
+      "committed": 818,
+      "submitted": 10000,
+      "heapBytes": 88436640,
+      "elapsedMs": 7244.85582
+    },
+    {
+      "committed": 850,
+      "submitted": 10000,
+      "heapBytes": 88436640,
+      "elapsedMs": 7347.206849
+    },
+    {
+      "committed": 878,
+      "submitted": 10000,
+      "heapBytes": 90533792,
+      "elapsedMs": 7447.339846
+    },
+    {
+      "committed": 906,
+      "submitted": 10000,
+      "heapBytes": 53041928,
+      "elapsedMs": 7550.685693
+    },
+    {
+      "committed": 938,
+      "submitted": 10000,
+      "heapBytes": 55139080,
+      "elapsedMs": 7655.652832
+    },
+    {
+      "committed": 962,
+      "submitted": 10000,
+      "heapBytes": 57236232,
+      "elapsedMs": 7758.81102
+    },
+    {
+      "committed": 986,
+      "submitted": 10000,
+      "heapBytes": 57236232,
+      "elapsedMs": 7860.805988
+    },
+    {
+      "committed": 1006,
+      "submitted": 10000,
+      "heapBytes": 59333384,
+      "elapsedMs": 7962.984602
+    },
+    {
+      "committed": 1038,
+      "submitted": 10000,
+      "heapBytes": 61430536,
+      "elapsedMs": 8066.664759
+    },
+    {
+      "committed": 1066,
+      "submitted": 10000,
+      "heapBytes": 63527688,
+      "elapsedMs": 8170.987506
+    },
+    {
+      "committed": 1102,
+      "submitted": 10000,
+      "heapBytes": 63527688,
+      "elapsedMs": 8274.992733
+    },
+    {
+      "committed": 1130,
+      "submitted": 10000,
+      "heapBytes": 65624840,
+      "elapsedMs": 8375.254643
+    },
+    {
+      "committed": 1162,
+      "submitted": 10000,
+      "heapBytes": 67721992,
+      "elapsedMs": 8477.674671
+    },
+    {
+      "committed": 1198,
+      "submitted": 10000,
+      "heapBytes": 69819144,
+      "elapsedMs": 8580.590255
+    },
+    {
+      "committed": 1230,
+      "submitted": 10000,
+      "heapBytes": 69819144,
+      "elapsedMs": 8683.206546
+    },
+    {
+      "committed": 1258,
+      "submitted": 10000,
+      "heapBytes": 71916296,
+      "elapsedMs": 8783.385323
+    },
+    {
+      "committed": 1294,
+      "submitted": 10000,
+      "heapBytes": 74013448,
+      "elapsedMs": 8886.752766
+    },
+    {
+      "committed": 1322,
+      "submitted": 10000,
+      "heapBytes": 76110600,
+      "elapsedMs": 8990.444374
+    },
+    {
+      "committed": 1346,
+      "submitted": 10000,
+      "heapBytes": 76110600,
+      "elapsedMs": 9093.1091
+    },
+    {
+      "committed": 1371,
+      "submitted": 10000,
+      "heapBytes": 78207752,
+      "elapsedMs": 9196.171139
+    },
+    {
+      "committed": 1398,
+      "submitted": 10000,
+      "heapBytes": 80304904,
+      "elapsedMs": 9296.777731
+    },
+    {
+      "committed": 1426,
+      "submitted": 10000,
+      "heapBytes": 82402056,
+      "elapsedMs": 9401.774325
+    },
+    {
+      "committed": 1458,
+      "submitted": 10000,
+      "heapBytes": 82402056,
+      "elapsedMs": 9506.303942
+    },
+    {
+      "committed": 1486,
+      "submitted": 10000,
+      "heapBytes": 84499208,
+      "elapsedMs": 9609.100738
+    },
+    {
+      "committed": 1495,
+      "submitted": 10000,
+      "heapBytes": 84499208,
+      "elapsedMs": 9709.477082
+    },
+    {
+      "committed": 1522,
+      "submitted": 10000,
+      "heapBytes": 86596360,
+      "elapsedMs": 9809.582498
+    },
+    {
+      "committed": 1550,
+      "submitted": 10000,
+      "heapBytes": 86596360,
+      "elapsedMs": 9913.486491
+    },
+    {
+      "committed": 1571,
+      "submitted": 10000,
+      "heapBytes": 86596360,
+      "elapsedMs": 10018.002533
+    },
+    {
+      "committed": 1594,
+      "submitted": 10000,
+      "heapBytes": 51981176,
+      "elapsedMs": 10121.580435
+    },
+    {
+      "committed": 1614,
+      "submitted": 10000,
+      "heapBytes": 54078328,
+      "elapsedMs": 10223.772895
+    },
+    {
+      "committed": 1643,
+      "submitted": 10000,
+      "heapBytes": 56175480,
+      "elapsedMs": 10327.597488
+    },
+    {
+      "committed": 1671,
+      "submitted": 10000,
+      "heapBytes": 56175480,
+      "elapsedMs": 10430.832647
+    },
+    {
+      "committed": 1699,
+      "submitted": 10000,
+      "heapBytes": 58272632,
+      "elapsedMs": 10533.349375
+    },
+    {
+      "committed": 1735,
+      "submitted": 10000,
+      "heapBytes": 60369784,
+      "elapsedMs": 10634.525949
+    },
+    {
+      "committed": 1767,
+      "submitted": 10000,
+      "heapBytes": 62466936,
+      "elapsedMs": 10739.49276
+    },
+    {
+      "committed": 1799,
+      "submitted": 10000,
+      "heapBytes": 62466936,
+      "elapsedMs": 10839.753836
+    },
+    {
+      "committed": 1835,
+      "submitted": 10000,
+      "heapBytes": 64564088,
+      "elapsedMs": 10939.880459
+    },
+    {
+      "committed": 1863,
+      "submitted": 10000,
+      "heapBytes": 66661240,
+      "elapsedMs": 11040.125675
+    },
+    {
+      "committed": 1895,
+      "submitted": 10000,
+      "heapBytes": 68758392,
+      "elapsedMs": 11143.826261
+    },
+    {
+      "committed": 1931,
+      "submitted": 10000,
+      "heapBytes": 70855544,
+      "elapsedMs": 11247.397214
+    },
+    {
+      "committed": 1967,
+      "submitted": 10000,
+      "heapBytes": 70855544,
+      "elapsedMs": 11348.776703
+    },
+    {
+      "committed": 1999,
+      "submitted": 10000,
+      "heapBytes": 72952696,
+      "elapsedMs": 11451.760257
+    },
+    {
+      "committed": 2027,
+      "submitted": 10000,
+      "heapBytes": 75049848,
+      "elapsedMs": 11555.010899
+    },
+    {
+      "committed": 2059,
+      "submitted": 10000,
+      "heapBytes": 77147000,
+      "elapsedMs": 11658.570613
+    },
+    {
+      "committed": 2087,
+      "submitted": 10000,
+      "heapBytes": 79244152,
+      "elapsedMs": 11758.842455
+    },
+    {
+      "committed": 2119,
+      "submitted": 10000,
+      "heapBytes": 79244152,
+      "elapsedMs": 11860.032989
+    },
+    {
+      "committed": 2152,
+      "submitted": 10000,
+      "heapBytes": 81341304,
+      "elapsedMs": 11963.860616
+    },
+    {
+      "committed": 2183,
+      "submitted": 10000,
+      "heapBytes": 83438456,
+      "elapsedMs": 12064.612486
+    },
+    {
+      "committed": 2215,
+      "submitted": 10000,
+      "heapBytes": 85535608,
+      "elapsedMs": 12166.785082
+    },
+    {
+      "committed": 2239,
+      "submitted": 10000,
+      "heapBytes": 85535608,
+      "elapsedMs": 12270.4902
+    },
+    {
+      "committed": 2267,
+      "submitted": 10000,
+      "heapBytes": 87632760,
+      "elapsedMs": 12373.014839
+    },
+    {
+      "committed": 2299,
+      "submitted": 10000,
+      "heapBytes": 89729912,
+      "elapsedMs": 12476.976026
+    },
+    {
+      "committed": 2307,
+      "submitted": 10000,
+      "heapBytes": 89729912,
+      "elapsedMs": 12581.030256
+    },
+    {
+      "committed": 2327,
+      "submitted": 10000,
+      "heapBytes": 52156200,
+      "elapsedMs": 12683.572155
+    },
+    {
+      "committed": 2343,
+      "submitted": 10000,
+      "heapBytes": 52156200,
+      "elapsedMs": 12783.816346
+    },
+    {
+      "committed": 2367,
+      "submitted": 10000,
+      "heapBytes": 54253352,
+      "elapsedMs": 12884.221429
+    },
+    {
+      "committed": 2391,
+      "submitted": 10000,
+      "heapBytes": 56350504,
+      "elapsedMs": 12988.175218
+    },
+    {
+      "committed": 2423,
+      "submitted": 10000,
+      "heapBytes": 58447656,
+      "elapsedMs": 13091.76343
+    },
+    {
+      "committed": 2459,
+      "submitted": 10000,
+      "heapBytes": 58447656,
+      "elapsedMs": 13193.344861
+    },
+    {
+      "committed": 2495,
+      "submitted": 10000,
+      "heapBytes": 60544808,
+      "elapsedMs": 13294.9354
+    },
+    {
+      "committed": 2527,
+      "submitted": 10000,
+      "heapBytes": 62641960,
+      "elapsedMs": 13397.821775
+    },
+    {
+      "committed": 2559,
+      "submitted": 10000,
+      "heapBytes": 64739112,
+      "elapsedMs": 13499.646624
+    },
+    {
+      "committed": 2591,
+      "submitted": 10000,
+      "heapBytes": 66836264,
+      "elapsedMs": 13601.911117
+    },
+    {
+      "committed": 2627,
+      "submitted": 10000,
+      "heapBytes": 66836264,
+      "elapsedMs": 13705.551791
+    },
+    {
+      "committed": 2659,
+      "submitted": 10000,
+      "heapBytes": 68933416,
+      "elapsedMs": 13808.817521
+    },
+    {
+      "committed": 2691,
+      "submitted": 10000,
+      "heapBytes": 71030568,
+      "elapsedMs": 13912.789333
+    },
+    {
+      "committed": 2723,
+      "submitted": 10000,
+      "heapBytes": 73127720,
+      "elapsedMs": 14016.675234
+    },
+    {
+      "committed": 2759,
+      "submitted": 10000,
+      "heapBytes": 73127720,
+      "elapsedMs": 14120.403991
+    },
+    {
+      "committed": 2787,
+      "submitted": 10000,
+      "heapBytes": 75224872,
+      "elapsedMs": 14221.943716
+    },
+    {
+      "committed": 2819,
+      "submitted": 10000,
+      "heapBytes": 77322024,
+      "elapsedMs": 14325.488138
+    },
+    {
+      "committed": 2851,
+      "submitted": 10000,
+      "heapBytes": 79419176,
+      "elapsedMs": 14427.415243
+    },
+    {
+      "committed": 2879,
+      "submitted": 10000,
+      "heapBytes": 81516328,
+      "elapsedMs": 14527.593693
+    },
+    {
+      "committed": 2915,
+      "submitted": 10000,
+      "heapBytes": 81516328,
+      "elapsedMs": 14627.823941
+    },
+    {
+      "committed": 2951,
+      "submitted": 10000,
+      "heapBytes": 83613480,
+      "elapsedMs": 14730.983864
+    },
+    {
+      "committed": 2982,
+      "submitted": 10000,
+      "heapBytes": 85710632,
+      "elapsedMs": 14833.219457
+    },
+    {
+      "committed": 3019,
+      "submitted": 10000,
+      "heapBytes": 87807784,
+      "elapsedMs": 14937.126235
+    },
+    {
+      "committed": 3047,
+      "submitted": 10000,
+      "heapBytes": 89904936,
+      "elapsedMs": 15037.734602
+    },
+    {
+      "committed": 3079,
+      "submitted": 10000,
+      "heapBytes": 89904936,
+      "elapsedMs": 15141.56789
+    },
+    {
+      "committed": 3111,
+      "submitted": 10000,
+      "heapBytes": 52296456,
+      "elapsedMs": 15245.039335
+    },
+    {
+      "committed": 3143,
+      "submitted": 10000,
+      "heapBytes": 54393608,
+      "elapsedMs": 15346.109191
+    },
+    {
+      "committed": 3176,
+      "submitted": 10000,
+      "heapBytes": 56490760,
+      "elapsedMs": 15447.767373
+    },
+    {
+      "committed": 3208,
+      "submitted": 10000,
+      "heapBytes": 58587912,
+      "elapsedMs": 15549.167296
+    },
+    {
+      "committed": 3236,
+      "submitted": 10000,
+      "heapBytes": 60685064,
+      "elapsedMs": 15649.30741
+    },
+    {
+      "committed": 3271,
+      "submitted": 10000,
+      "heapBytes": 60685064,
+      "elapsedMs": 15751.260648
+    },
+    {
+      "committed": 3303,
+      "submitted": 10000,
+      "heapBytes": 62782216,
+      "elapsedMs": 15854.927103
+    },
+    {
+      "committed": 3335,
+      "submitted": 10000,
+      "heapBytes": 64879368,
+      "elapsedMs": 15958.405062
+    },
+    {
+      "committed": 3363,
+      "submitted": 10000,
+      "heapBytes": 66976520,
+      "elapsedMs": 16059.310429
+    },
+    {
+      "committed": 3395,
+      "submitted": 10000,
+      "heapBytes": 66976520,
+      "elapsedMs": 16159.739057
+    },
+    {
+      "committed": 3427,
+      "submitted": 10000,
+      "heapBytes": 69073672,
+      "elapsedMs": 16264.827346
+    },
+    {
+      "committed": 3459,
+      "submitted": 10000,
+      "heapBytes": 71170824,
+      "elapsedMs": 16367.691615
+    },
+    {
+      "committed": 3491,
+      "submitted": 10000,
+      "heapBytes": 73267976,
+      "elapsedMs": 16471.495249
+    },
+    {
+      "committed": 3519,
+      "submitted": 10000,
+      "heapBytes": 73267976,
+      "elapsedMs": 16571.710088
+    },
+    {
+      "committed": 3551,
+      "submitted": 10000,
+      "heapBytes": 75365128,
+      "elapsedMs": 16673.261576
+    },
+    {
+      "committed": 3587,
+      "submitted": 10000,
+      "heapBytes": 77462280,
+      "elapsedMs": 16777.160207
+    },
+    {
+      "committed": 3615,
+      "submitted": 10000,
+      "heapBytes": 79559432,
+      "elapsedMs": 16878.082105
+    },
+    {
+      "committed": 3647,
+      "submitted": 10000,
+      "heapBytes": 79559432,
+      "elapsedMs": 16983.157328
+    },
+    {
+      "committed": 3680,
+      "submitted": 10000,
+      "heapBytes": 81656584,
+      "elapsedMs": 17087.401081
+    },
+    {
+      "committed": 3712,
+      "submitted": 10000,
+      "heapBytes": 83753736,
+      "elapsedMs": 17191.397325
+    },
+    {
+      "committed": 3748,
+      "submitted": 10000,
+      "heapBytes": 85850888,
+      "elapsedMs": 17292.490623
+    },
+    {
+      "committed": 3780,
+      "submitted": 10000,
+      "heapBytes": 87948040,
+      "elapsedMs": 17392.931891
+    },
+    {
+      "committed": 3812,
+      "submitted": 10000,
+      "heapBytes": 87948040,
+      "elapsedMs": 17493.835405
+    },
+    {
+      "committed": 3848,
+      "submitted": 10000,
+      "heapBytes": 90045192,
+      "elapsedMs": 17594.100631
+    },
+    {
+      "committed": 3881,
+      "submitted": 10000,
+      "heapBytes": 51735896,
+      "elapsedMs": 17698.684726
+    },
+    {
+      "committed": 3910,
+      "submitted": 10000,
+      "heapBytes": 53833048,
+      "elapsedMs": 17798.896207
+    },
+    {
+      "committed": 3941,
+      "submitted": 10000,
+      "heapBytes": 55930200,
+      "elapsedMs": 17902.371901
+    },
+    {
+      "committed": 3973,
+      "submitted": 10000,
+      "heapBytes": 55930200,
+      "elapsedMs": 18005.033345
+    },
+    {
+      "committed": 4001,
+      "submitted": 10000,
+      "heapBytes": 58027352,
+      "elapsedMs": 18105.848031
+    },
+    {
+      "committed": 4029,
+      "submitted": 10000,
+      "heapBytes": 60124504,
+      "elapsedMs": 18206.020769
+    },
+    {
+      "committed": 4057,
+      "submitted": 10000,
+      "heapBytes": 62221656,
+      "elapsedMs": 18310.697229
+    },
+    {
+      "committed": 4093,
+      "submitted": 10000,
+      "heapBytes": 62221656,
+      "elapsedMs": 18414.806451
+    },
+    {
+      "committed": 4129,
+      "submitted": 10000,
+      "heapBytes": 64318808,
+      "elapsedMs": 18519.273077
+    },
+    {
+      "committed": 4161,
+      "submitted": 10000,
+      "heapBytes": 66415960,
+      "elapsedMs": 18622.28317
+    },
+    {
+      "committed": 4193,
+      "submitted": 10000,
+      "heapBytes": 68513112,
+      "elapsedMs": 18726.344507
+    },
+    {
+      "committed": 4229,
+      "submitted": 10000,
+      "heapBytes": 68513112,
+      "elapsedMs": 18829.869148
+    },
+    {
+      "committed": 4258,
+      "submitted": 10000,
+      "heapBytes": 68513112,
+      "elapsedMs": 18933.163193
+    },
+    {
+      "committed": 4289,
+      "submitted": 10000,
+      "heapBytes": 70610264,
+      "elapsedMs": 19036.928521
+    },
+    {
+      "committed": 4298,
+      "submitted": 10000,
+      "heapBytes": 70610264,
+      "elapsedMs": 19138.40401
+    },
+    {
+      "committed": 4329,
+      "submitted": 10000,
+      "heapBytes": 72707416,
+      "elapsedMs": 19240.14052
+    },
+    {
+      "committed": 4357,
+      "submitted": 10000,
+      "heapBytes": 74804568,
+      "elapsedMs": 19341.660841
+    },
+    {
+      "committed": 4389,
+      "submitted": 10000,
+      "heapBytes": 76901720,
+      "elapsedMs": 19445.753733
+    },
+    {
+      "committed": 4417,
+      "submitted": 10000,
+      "heapBytes": 76901720,
+      "elapsedMs": 19548.278394
+    },
+    {
+      "committed": 4445,
+      "submitted": 10000,
+      "heapBytes": 78998872,
+      "elapsedMs": 19653.364547
+    },
+    {
+      "committed": 4457,
+      "submitted": 10000,
+      "heapBytes": 78998872,
+      "elapsedMs": 19753.933187
+    },
+    {
+      "committed": 4481,
+      "submitted": 10000,
+      "heapBytes": 81096024,
+      "elapsedMs": 19854.818234
+    },
+    {
+      "committed": 4513,
+      "submitted": 10000,
+      "heapBytes": 83193176,
+      "elapsedMs": 19958.935647
+    },
+    {
+      "committed": 4545,
+      "submitted": 10000,
+      "heapBytes": 85290328,
+      "elapsedMs": 20060.785835
+    },
+    {
+      "committed": 4565,
+      "submitted": 10000,
+      "heapBytes": 85290328,
+      "elapsedMs": 20160.983192
+    },
+    {
+      "committed": 4593,
+      "submitted": 10000,
+      "heapBytes": 87387480,
+      "elapsedMs": 20261.361276
+    },
+    {
+      "committed": 4625,
+      "submitted": 10000,
+      "heapBytes": 87387480,
+      "elapsedMs": 20364.905546
+    },
+    {
+      "committed": 4645,
+      "submitted": 10000,
+      "heapBytes": 51964136,
+      "elapsedMs": 20468.404568
+    },
+    {
+      "committed": 4677,
+      "submitted": 10000,
+      "heapBytes": 54061288,
+      "elapsedMs": 20573.257026
+    },
+    {
+      "committed": 4702,
+      "submitted": 10000,
+      "heapBytes": 56158440,
+      "elapsedMs": 20677.395622
+    },
+    {
+      "committed": 4734,
+      "submitted": 10000,
+      "heapBytes": 56158440,
+      "elapsedMs": 20782.015752
+    },
+    {
+      "committed": 4762,
+      "submitted": 10000,
+      "heapBytes": 58255592,
+      "elapsedMs": 20883.894456
+    },
+    {
+      "committed": 4794,
+      "submitted": 10000,
+      "heapBytes": 60352744,
+      "elapsedMs": 20987.991172
+    },
+    {
+      "committed": 4826,
+      "submitted": 10000,
+      "heapBytes": 60352744,
+      "elapsedMs": 21089.552405
+    },
+    {
+      "committed": 4854,
+      "submitted": 10000,
+      "heapBytes": 62449896,
+      "elapsedMs": 21189.950244
+    },
+    {
+      "committed": 4886,
+      "submitted": 10000,
+      "heapBytes": 64547048,
+      "elapsedMs": 21294.447678
+    },
+    {
+      "committed": 4918,
+      "submitted": 10000,
+      "heapBytes": 64547048,
+      "elapsedMs": 21394.593046
+    },
+    {
+      "committed": 4946,
+      "submitted": 10000,
+      "heapBytes": 64547048,
+      "elapsedMs": 21496.565231
+    },
+    {
+      "committed": 4978,
+      "submitted": 10000,
+      "heapBytes": 66644200,
+      "elapsedMs": 21600.805588
+    },
+    {
+      "committed": 5002,
+      "submitted": 10000,
+      "heapBytes": 68741352,
+      "elapsedMs": 21705.598662
+    },
+    {
+      "committed": 5022,
+      "submitted": 10000,
+      "heapBytes": 68741352,
+      "elapsedMs": 21805.832407
+    },
+    {
+      "committed": 5050,
+      "submitted": 10000,
+      "heapBytes": 70838504,
+      "elapsedMs": 21906.058186
+    },
+    {
+      "committed": 5070,
+      "submitted": 10000,
+      "heapBytes": 72935656,
+      "elapsedMs": 22006.551968
+    },
+    {
+      "committed": 5094,
+      "submitted": 10000,
+      "heapBytes": 72935656,
+      "elapsedMs": 22109.119817
+    },
+    {
+      "committed": 5114,
+      "submitted": 10000,
+      "heapBytes": 75032808,
+      "elapsedMs": 22209.624616
+    },
+    {
+      "committed": 5126,
+      "submitted": 10000,
+      "heapBytes": 75032808,
+      "elapsedMs": 22314.115778
+    },
+    {
+      "committed": 5146,
+      "submitted": 10000,
+      "heapBytes": 77129960,
+      "elapsedMs": 22417.960679
+    },
+    {
+      "committed": 5174,
+      "submitted": 10000,
+      "heapBytes": 77129960,
+      "elapsedMs": 22519.131748
+    },
+    {
+      "committed": 5202,
+      "submitted": 10000,
+      "heapBytes": 79227112,
+      "elapsedMs": 22623.694684
+    },
+    {
+      "committed": 5235,
+      "submitted": 10000,
+      "heapBytes": 81324264,
+      "elapsedMs": 22727.160885
+    },
+    {
+      "committed": 5270,
+      "submitted": 10000,
+      "heapBytes": 83421416,
+      "elapsedMs": 22830.175187
+    },
+    {
+      "committed": 5302,
+      "submitted": 10000,
+      "heapBytes": 83421416,
+      "elapsedMs": 22933.262904
+    },
+    {
+      "committed": 5334,
+      "submitted": 10000,
+      "heapBytes": 85518568,
+      "elapsedMs": 23033.415118
+    },
+    {
+      "committed": 5366,
+      "submitted": 10000,
+      "heapBytes": 87615720,
+      "elapsedMs": 23134.00917
+    },
+    {
+      "committed": 5393,
+      "submitted": 10000,
+      "heapBytes": 52217432,
+      "elapsedMs": 23238.349799
+    },
+    {
+      "committed": 5418,
+      "submitted": 10000,
+      "heapBytes": 52217432,
+      "elapsedMs": 23341.587692
+    },
+    {
+      "committed": 5450,
+      "submitted": 10000,
+      "heapBytes": 54314584,
+      "elapsedMs": 23441.716315
+    },
+    {
+      "committed": 5482,
+      "submitted": 10000,
+      "heapBytes": 56411736,
+      "elapsedMs": 23542.005049
+    },
+    {
+      "committed": 5510,
+      "submitted": 10000,
+      "heapBytes": 58508888,
+      "elapsedMs": 23642.32949
+    },
+    {
+      "committed": 5538,
+      "submitted": 10000,
+      "heapBytes": 58508888,
+      "elapsedMs": 23742.988073
+    },
+    {
+      "committed": 5570,
+      "submitted": 10000,
+      "heapBytes": 60606040,
+      "elapsedMs": 23843.167702
+    },
+    {
+      "committed": 5602,
+      "submitted": 10000,
+      "heapBytes": 62703192,
+      "elapsedMs": 23943.849822
+    },
+    {
+      "committed": 5630,
+      "submitted": 10000,
+      "heapBytes": 62703192,
+      "elapsedMs": 24043.994399
+    },
+    {
+      "committed": 5666,
+      "submitted": 10000,
+      "heapBytes": 64800344,
+      "elapsedMs": 24147.705807
+    },
+    {
+      "committed": 5694,
+      "submitted": 10000,
+      "heapBytes": 66897496,
+      "elapsedMs": 24251.81972
+    },
+    {
+      "committed": 5722,
+      "submitted": 10000,
+      "heapBytes": 68994648,
+      "elapsedMs": 24354.885335
+    },
+    {
+      "committed": 5750,
+      "submitted": 10000,
+      "heapBytes": 68994648,
+      "elapsedMs": 24459.440666
+    },
+    {
+      "committed": 5782,
+      "submitted": 10000,
+      "heapBytes": 71091800,
+      "elapsedMs": 24560.407869
+    },
+    {
+      "committed": 5809,
+      "submitted": 10000,
+      "heapBytes": 73188952,
+      "elapsedMs": 24661.448498
+    },
+    {
+      "committed": 5834,
+      "submitted": 10000,
+      "heapBytes": 73188952,
+      "elapsedMs": 24761.979731
+    },
+    {
+      "committed": 5862,
+      "submitted": 10000,
+      "heapBytes": 75286104,
+      "elapsedMs": 24867.070195
+    },
+    {
+      "committed": 5894,
+      "submitted": 10000,
+      "heapBytes": 77383256,
+      "elapsedMs": 24968.649561
+    },
+    {
+      "committed": 5926,
+      "submitted": 10000,
+      "heapBytes": 77383256,
+      "elapsedMs": 25073.776702
+    },
+    {
+      "committed": 5958,
+      "submitted": 10000,
+      "heapBytes": 79480408,
+      "elapsedMs": 25175.519389
+    },
+    {
+      "committed": 5987,
+      "submitted": 10000,
+      "heapBytes": 81577560,
+      "elapsedMs": 25280.551388
+    },
+    {
+      "committed": 6016,
+      "submitted": 10000,
+      "heapBytes": 83674712,
+      "elapsedMs": 25383.18302
+    },
+    {
+      "committed": 6043,
+      "submitted": 10000,
+      "heapBytes": 83674712,
+      "elapsedMs": 25484.291059
+    },
+    {
+      "committed": 6071,
+      "submitted": 10000,
+      "heapBytes": 85771864,
+      "elapsedMs": 25588.662395
+    },
+    {
+      "committed": 6095,
+      "submitted": 10000,
+      "heapBytes": 85771864,
+      "elapsedMs": 25689.814368
+    },
+    {
+      "committed": 6123,
+      "submitted": 10000,
+      "heapBytes": 87869016,
+      "elapsedMs": 25793.549348
+    },
+    {
+      "committed": 6151,
+      "submitted": 10000,
+      "heapBytes": 89966168,
+      "elapsedMs": 25893.732003
+    },
+    {
+      "committed": 6180,
+      "submitted": 10000,
+      "heapBytes": 51877704,
+      "elapsedMs": 25997.31409
+    },
+    {
+      "committed": 6215,
+      "submitted": 10000,
+      "heapBytes": 53974856,
+      "elapsedMs": 26097.870565
+    },
+    {
+      "committed": 6244,
+      "submitted": 10000,
+      "heapBytes": 53974856,
+      "elapsedMs": 26199.03671
+    },
+    {
+      "committed": 6276,
+      "submitted": 10000,
+      "heapBytes": 56072008,
+      "elapsedMs": 26299.719123
+    },
+    {
+      "committed": 6309,
+      "submitted": 10000,
+      "heapBytes": 58169160,
+      "elapsedMs": 26400.793755
+    },
+    {
+      "committed": 6344,
+      "submitted": 10000,
+      "heapBytes": 60266312,
+      "elapsedMs": 26504.512593
+    },
+    {
+      "committed": 6380,
+      "submitted": 10000,
+      "heapBytes": 60266312,
+      "elapsedMs": 26609.434081
+    },
+    {
+      "committed": 6413,
+      "submitted": 10000,
+      "heapBytes": 62363464,
+      "elapsedMs": 26711.757026
+    },
+    {
+      "committed": 6445,
+      "submitted": 10000,
+      "heapBytes": 64460616,
+      "elapsedMs": 26816.617848
+    },
+    {
+      "committed": 6481,
+      "submitted": 10000,
+      "heapBytes": 66557768,
+      "elapsedMs": 26920.869256
+    },
+    {
+      "committed": 6513,
+      "submitted": 10000,
+      "heapBytes": 66557768,
+      "elapsedMs": 27023.167054
+    },
+    {
+      "committed": 6546,
+      "submitted": 10000,
+      "heapBytes": 68654920,
+      "elapsedMs": 27126.279116
+    },
+    {
+      "committed": 6582,
+      "submitted": 10000,
+      "heapBytes": 70752072,
+      "elapsedMs": 27230.052092
+    },
+    {
+      "committed": 6618,
+      "submitted": 10000,
+      "heapBytes": 72849224,
+      "elapsedMs": 27333.556249
+    },
+    {
+      "committed": 6655,
+      "submitted": 10000,
+      "heapBytes": 74946376,
+      "elapsedMs": 27436.923414
+    },
+    {
+      "committed": 6687,
+      "submitted": 10000,
+      "heapBytes": 74946376,
+      "elapsedMs": 27538.567085
+    },
+    {
+      "committed": 6719,
+      "submitted": 10000,
+      "heapBytes": 77043528,
+      "elapsedMs": 27641.771864
+    },
+    {
+      "committed": 6751,
+      "submitted": 10000,
+      "heapBytes": 79140680,
+      "elapsedMs": 27741.971501
+    },
+    {
+      "committed": 6787,
+      "submitted": 10000,
+      "heapBytes": 81237832,
+      "elapsedMs": 27842.121657
+    },
+    {
+      "committed": 6819,
+      "submitted": 10000,
+      "heapBytes": 81237832,
+      "elapsedMs": 27942.786346
+    },
+    {
+      "committed": 6847,
+      "submitted": 10000,
+      "heapBytes": 83334984,
+      "elapsedMs": 28043.018539
+    },
+    {
+      "committed": 6879,
+      "submitted": 10000,
+      "heapBytes": 85432136,
+      "elapsedMs": 28143.231056
+    },
+    {
+      "committed": 6907,
+      "submitted": 10000,
+      "heapBytes": 87529288,
+      "elapsedMs": 28243.704795
+    },
+    {
+      "committed": 6939,
+      "submitted": 10000,
+      "heapBytes": 87529288,
+      "elapsedMs": 28343.819588
+    },
+    {
+      "committed": 6967,
+      "submitted": 10000,
+      "heapBytes": 89626440,
+      "elapsedMs": 28445.184998
+    },
+    {
+      "committed": 6995,
+      "submitted": 10000,
+      "heapBytes": 89626440,
+      "elapsedMs": 28545.922338
+    },
+    {
+      "committed": 7020,
+      "submitted": 10000,
+      "heapBytes": 52212080,
+      "elapsedMs": 28646.33364
+    },
+    {
+      "committed": 7052,
+      "submitted": 10000,
+      "heapBytes": 54309232,
+      "elapsedMs": 28750.938672
+    },
+    {
+      "committed": 7085,
+      "submitted": 10000,
+      "heapBytes": 56406384,
+      "elapsedMs": 28854.626788
+    },
+    {
+      "committed": 7117,
+      "submitted": 10000,
+      "heapBytes": 56406384,
+      "elapsedMs": 28956.687177
+    },
+    {
+      "committed": 7147,
+      "submitted": 10000,
+      "heapBytes": 58503536,
+      "elapsedMs": 29058.194378
+    },
+    {
+      "committed": 7182,
+      "submitted": 10000,
+      "heapBytes": 60600688,
+      "elapsedMs": 29158.31614
+    },
+    {
+      "committed": 7213,
+      "submitted": 10000,
+      "heapBytes": 62697840,
+      "elapsedMs": 29261.131994
+    },
+    {
+      "committed": 7245,
+      "submitted": 10000,
+      "heapBytes": 62697840,
+      "elapsedMs": 29365.1034
+    },
+    {
+      "committed": 7277,
+      "submitted": 10000,
+      "heapBytes": 64794992,
+      "elapsedMs": 29467.687453
+    },
+    {
+      "committed": 7314,
+      "submitted": 10000,
+      "heapBytes": 66892144,
+      "elapsedMs": 29571.18312
+    },
+    {
+      "committed": 7334,
+      "submitted": 10000,
+      "heapBytes": 66892144,
+      "elapsedMs": 29672.560552
+    },
+    {
+      "committed": 7361,
+      "submitted": 10000,
+      "heapBytes": 68989296,
+      "elapsedMs": 29772.737364
+    },
+    {
+      "committed": 7394,
+      "submitted": 10000,
+      "heapBytes": 71086448,
+      "elapsedMs": 29877.528749
+    },
+    {
+      "committed": 7427,
+      "submitted": 10000,
+      "heapBytes": 71086448,
+      "elapsedMs": 29979.013286
+    },
+    {
+      "committed": 7462,
+      "submitted": 10000,
+      "heapBytes": 73183600,
+      "elapsedMs": 30083.142266
+    },
+    {
+      "committed": 7496,
+      "submitted": 10000,
+      "heapBytes": 75280752,
+      "elapsedMs": 30183.318305
+    },
+    {
+      "committed": 7536,
+      "submitted": 10000,
+      "heapBytes": 77377904,
+      "elapsedMs": 30287.298919
+    },
+    {
+      "committed": 7572,
+      "submitted": 10000,
+      "heapBytes": 77377904,
+      "elapsedMs": 30388.47251
+    },
+    {
+      "committed": 7610,
+      "submitted": 10000,
+      "heapBytes": 79475056,
+      "elapsedMs": 30493.407375
+    },
+    {
+      "committed": 7635,
+      "submitted": 10000,
+      "heapBytes": 81572208,
+      "elapsedMs": 30594.338101
+    },
+    {
+      "committed": 7660,
+      "submitted": 10000,
+      "heapBytes": 83669360,
+      "elapsedMs": 30694.543116
+    },
+    {
+      "committed": 7694,
+      "submitted": 10000,
+      "heapBytes": 83669360,
+      "elapsedMs": 30798.348978
+    },
+    {
+      "committed": 7725,
+      "submitted": 10000,
+      "heapBytes": 85766512,
+      "elapsedMs": 30902.23835
+    },
+    {
+      "committed": 7758,
+      "submitted": 10000,
+      "heapBytes": 87863664,
+      "elapsedMs": 31006.207498
+    },
+    {
+      "committed": 7792,
+      "submitted": 10000,
+      "heapBytes": 87863664,
+      "elapsedMs": 31108.864858
+    },
+    {
+      "committed": 7824,
+      "submitted": 10000,
+      "heapBytes": 89960816,
+      "elapsedMs": 31208.992887
+    },
+    {
+      "committed": 7849,
+      "submitted": 10000,
+      "heapBytes": 52252216,
+      "elapsedMs": 31309.12844
+    },
+    {
+      "committed": 7882,
+      "submitted": 10000,
+      "heapBytes": 54349368,
+      "elapsedMs": 31409.270984
+    },
+    {
+      "committed": 7917,
+      "submitted": 10000,
+      "heapBytes": 54349368,
+      "elapsedMs": 31513.511768
+    },
+    {
+      "committed": 7951,
+      "submitted": 10000,
+      "heapBytes": 56446520,
+      "elapsedMs": 31617.316365
+    },
+    {
+      "committed": 7983,
+      "submitted": 10000,
+      "heapBytes": 58543672,
+      "elapsedMs": 31721.130494
+    },
+    {
+      "committed": 8015,
+      "submitted": 10000,
+      "heapBytes": 60640824,
+      "elapsedMs": 31824.469032
+    },
+    {
+      "committed": 8047,
+      "submitted": 10000,
+      "heapBytes": 60640824,
+      "elapsedMs": 31928.728932
+    },
+    {
+      "committed": 8079,
+      "submitted": 10000,
+      "heapBytes": 62737976,
+      "elapsedMs": 32033.131938
+    },
+    {
+      "committed": 8112,
+      "submitted": 10000,
+      "heapBytes": 64835128,
+      "elapsedMs": 32137.74327
+    },
+    {
+      "committed": 8140,
+      "submitted": 10000,
+      "heapBytes": 64835128,
+      "elapsedMs": 32238.143984
+    },
+    {
+      "committed": 8168,
+      "submitted": 10000,
+      "heapBytes": 66932280,
+      "elapsedMs": 32342.277643
+    },
+    {
+      "committed": 8201,
+      "submitted": 10000,
+      "heapBytes": 69029432,
+      "elapsedMs": 32446.937314
+    },
+    {
+      "committed": 8224,
+      "submitted": 10000,
+      "heapBytes": 69029432,
+      "elapsedMs": 32551.368743
+    },
+    {
+      "committed": 8261,
+      "submitted": 10000,
+      "heapBytes": 71126584,
+      "elapsedMs": 32655.079847
+    },
+    {
+      "committed": 8290,
+      "submitted": 10000,
+      "heapBytes": 73223736,
+      "elapsedMs": 32756.140164
+    },
+    {
+      "committed": 8326,
+      "submitted": 10000,
+      "heapBytes": 73223736,
+      "elapsedMs": 32857.689766
+    },
+    {
+      "committed": 8358,
+      "submitted": 10000,
+      "heapBytes": 75320888,
+      "elapsedMs": 32957.810078
+    },
+    {
+      "committed": 8392,
+      "submitted": 10000,
+      "heapBytes": 77418040,
+      "elapsedMs": 33058.534589
+    },
+    {
+      "committed": 8434,
+      "submitted": 10000,
+      "heapBytes": 79515192,
+      "elapsedMs": 33162.640038
+    },
+    {
+      "committed": 8474,
+      "submitted": 10000,
+      "heapBytes": 81612344,
+      "elapsedMs": 33266.624617
+    },
+    {
+      "committed": 8507,
+      "submitted": 10000,
+      "heapBytes": 81612344,
+      "elapsedMs": 33370.336119
+    },
+    {
+      "committed": 8539,
+      "submitted": 10000,
+      "heapBytes": 83709496,
+      "elapsedMs": 33470.637388
+    },
+    {
+      "committed": 8564,
+      "submitted": 10000,
+      "heapBytes": 85806648,
+      "elapsedMs": 33572.563911
+    },
+    {
+      "committed": 8593,
+      "submitted": 10000,
+      "heapBytes": 85806648,
+      "elapsedMs": 33675.677841
+    },
+    {
+      "committed": 8629,
+      "submitted": 10000,
+      "heapBytes": 87903800,
+      "elapsedMs": 33779.470824
+    },
+    {
+      "committed": 8665,
+      "submitted": 10000,
+      "heapBytes": 90000952,
+      "elapsedMs": 33883.629351
+    },
+    {
+      "committed": 8695,
+      "submitted": 10000,
+      "heapBytes": 51972096,
+      "elapsedMs": 33987.719697
+    },
+    {
+      "committed": 8728,
+      "submitted": 10000,
+      "heapBytes": 51972096,
+      "elapsedMs": 34091.766727
+    },
+    {
+      "committed": 8760,
+      "submitted": 10000,
+      "heapBytes": 54069248,
+      "elapsedMs": 34196.822268
+    },
+    {
+      "committed": 8792,
+      "submitted": 10000,
+      "heapBytes": 56166400,
+      "elapsedMs": 34300.798552
+    },
+    {
+      "committed": 8824,
+      "submitted": 10000,
+      "heapBytes": 58263552,
+      "elapsedMs": 34404.601621
+    },
+    {
+      "committed": 8860,
+      "submitted": 10000,
+      "heapBytes": 58263552,
+      "elapsedMs": 34507.824374
+    },
+    {
+      "committed": 8892,
+      "submitted": 10000,
+      "heapBytes": 60360704,
+      "elapsedMs": 34611.667196
+    },
+    {
+      "committed": 8924,
+      "submitted": 10000,
+      "heapBytes": 62457856,
+      "elapsedMs": 34716.659812
+    },
+    {
+      "committed": 8956,
+      "submitted": 10000,
+      "heapBytes": 64555008,
+      "elapsedMs": 34817.027754
+    },
+    {
+      "committed": 8992,
+      "submitted": 10000,
+      "heapBytes": 64555008,
+      "elapsedMs": 34921.511373
+    },
+    {
+      "committed": 9028,
+      "submitted": 10000,
+      "heapBytes": 66652160,
+      "elapsedMs": 35022.842261
+    },
+    {
+      "committed": 9064,
+      "submitted": 10000,
+      "heapBytes": 68749312,
+      "elapsedMs": 35126.958436
+    },
+    {
+      "committed": 9096,
+      "submitted": 10000,
+      "heapBytes": 70846464,
+      "elapsedMs": 35229.036124
+    },
+    {
+      "committed": 9116,
+      "submitted": 10000,
+      "heapBytes": 70846464,
+      "elapsedMs": 35333.125373
+    },
+    {
+      "committed": 9144,
+      "submitted": 10000,
+      "heapBytes": 72943616,
+      "elapsedMs": 35437.261411
+    },
+    {
+      "committed": 9171,
+      "submitted": 10000,
+      "heapBytes": 72943616,
+      "elapsedMs": 35537.547331
+    },
+    {
+      "committed": 9200,
+      "submitted": 10000,
+      "heapBytes": 75040768,
+      "elapsedMs": 35640.831921
+    },
+    {
+      "committed": 9232,
+      "submitted": 10000,
+      "heapBytes": 77137920,
+      "elapsedMs": 35741.118004
+    },
+    {
+      "committed": 9252,
+      "submitted": 10000,
+      "heapBytes": 77137920,
+      "elapsedMs": 35843.488962
+    },
+    {
+      "committed": 9280,
+      "submitted": 10000,
+      "heapBytes": 79235072,
+      "elapsedMs": 35945.596393
+    },
+    {
+      "committed": 9304,
+      "submitted": 10000,
+      "heapBytes": 81332224,
+      "elapsedMs": 36046.051277
+    },
+    {
+      "committed": 9332,
+      "submitted": 10000,
+      "heapBytes": 83429376,
+      "elapsedMs": 36146.824054
+    },
+    {
+      "committed": 9360,
+      "submitted": 10000,
+      "heapBytes": 83429376,
+      "elapsedMs": 36250.447808
+    },
+    {
+      "committed": 9392,
+      "submitted": 10000,
+      "heapBytes": 85526528,
+      "elapsedMs": 36354.343997
+    },
+    {
+      "committed": 9424,
+      "submitted": 10000,
+      "heapBytes": 87623680,
+      "elapsedMs": 36455.418787
+    },
+    {
+      "committed": 9452,
+      "submitted": 10000,
+      "heapBytes": 87623680,
+      "elapsedMs": 36557.50943
+    },
+    {
+      "committed": 9484,
+      "submitted": 10000,
+      "heapBytes": 89720832,
+      "elapsedMs": 36658.588492
+    },
+    {
+      "committed": 9500,
+      "submitted": 10000,
+      "heapBytes": 52340048,
+      "elapsedMs": 36791.83676
+    },
+    {
+      "committed": 9501,
+      "submitted": 10000,
+      "heapBytes": 52340048,
+      "elapsedMs": 36894.613233
+    },
+    {
+      "committed": 9504,
+      "submitted": 10000,
+      "heapBytes": 52340048,
+      "elapsedMs": 36997.415281
+    },
+    {
+      "committed": 9524,
+      "submitted": 10000,
+      "heapBytes": 52340048,
+      "elapsedMs": 37098.221258
+    },
+    {
+      "committed": 9545,
+      "submitted": 10000,
+      "heapBytes": 54437200,
+      "elapsedMs": 37198.754226
+    },
+    {
+      "committed": 9573,
+      "submitted": 10000,
+      "heapBytes": 56534352,
+      "elapsedMs": 37298.999492
+    },
+    {
+      "committed": 9601,
+      "submitted": 10000,
+      "heapBytes": 56534352,
+      "elapsedMs": 37399.57275
+    },
+    {
+      "committed": 9633,
+      "submitted": 10000,
+      "heapBytes": 58631504,
+      "elapsedMs": 37499.72481
+    },
+    {
+      "committed": 9661,
+      "submitted": 10000,
+      "heapBytes": 60728656,
+      "elapsedMs": 37602.268664
+    },
+    {
+      "committed": 9685,
+      "submitted": 10000,
+      "heapBytes": 62825808,
+      "elapsedMs": 37717.382977
+    },
+    {
+      "committed": 9714,
+      "submitted": 10000,
+      "heapBytes": 62825808,
+      "elapsedMs": 37821.550981
+    },
+    {
+      "committed": 9750,
+      "submitted": 10000,
+      "heapBytes": 64922960,
+      "elapsedMs": 37925.37419
+    },
+    {
+      "committed": 9783,
+      "submitted": 10000,
+      "heapBytes": 67020112,
+      "elapsedMs": 38030.486447
+    },
+    {
+      "committed": 9820,
+      "submitted": 10000,
+      "heapBytes": 69117264,
+      "elapsedMs": 38134.13813
+    },
+    {
+      "committed": 9856,
+      "submitted": 10000,
+      "heapBytes": 71214416,
+      "elapsedMs": 38238.831132
+    },
+    {
+      "committed": 9878,
+      "submitted": 10000,
+      "heapBytes": 71214416,
+      "elapsedMs": 38342.497086
+    },
+    {
+      "committed": 9914,
+      "submitted": 10000,
+      "heapBytes": 73311568,
+      "elapsedMs": 38444.4694
+    },
+    {
+      "committed": 9947,
+      "submitted": 10000,
+      "heapBytes": 75408720,
+      "elapsedMs": 38544.616829
+    },
+    {
+      "committed": 9983,
+      "submitted": 10000,
+      "heapBytes": 77505872,
+      "elapsedMs": 38648.580212
+    }
+  ],
+  "concurrency": 4,
+  "producerCommitBatch": 100,
+  "maxOutstandingSampled": 9479,
+  "stored": 10000,
+  "messages": 10000,
+  "errors": 0
+}

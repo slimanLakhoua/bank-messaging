@@ -1,0 +1,5 @@
+*
+!target/
+target/*
+!target/messaging-0.0.1-SNAPSHOT.jar
+!docker-healthcheck.sh

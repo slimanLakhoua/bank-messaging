@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Europe/Paris",
+  "model": "MacBookPro15,1",
+  "physicalCores": 8,
+  "logicalCores": 16,
+  "ramBytes": 17179869184,
+  "os": "macOS-15.8.1-x86_64-i386-64bit",
+  "java": "21 (release target and validation JVM)",
+  "springBoot": "4.1.2",
+  "springJms": "7.0.10",
+  "ibmMqClient": "10.0.1.0",
+  "ibmMqImage": "icr.io/ibm-messaging/mq:10.0.1.0-r1",
+  "postgresImage": "postgres:17.6-alpine3.22",
+  "node": "24.21.0",
+  "npm": "11.19.0",
+  "angular": "22.2.4",
+  "sqlPool": 5,
+  "httpConcurrency": 2,
+  "httpThinkTimeMs": 50,
+  "warmupMessages": 500,
+  "measurements": "One run per fixed JMS concurrency (1 and 4), 10000 persistent messages of 1024 bytes each; producer JMS commit batch 100",
+  "limits": [
+    "Shared developer machine, other compilation/testing and apps may overlap",
+    "Not a production capacity or SLA measurement",
+    "No repeated runs, no docker stats collected for this campaign",
+    "Input depth measured at reconciliation; maxOutstanding is an estimate, not a queue depth time series"
+  ]
+}

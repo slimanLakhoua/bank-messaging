@@ -1,0 +1,70 @@
+spring:
+  application:
+    name: bank-messaging
+  config:
+    import: optional:file:../.env[.properties],optional:file:.env[.properties]
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:55432}/${POSTGRES_DB:bank}?connectTimeout=5&socketTimeout=15
+    username: ${POSTGRES_USER:bank}
+    password: ${POSTGRES_PASSWORD}
+    hikari:
+      maximum-pool-size: ${SQL_POOL_SIZE:5}
+      connection-timeout: ${SQL_CONNECTION_TIMEOUT_MS:5000}
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+ibm:
+  mq:
+    queue-manager: QM1
+    channel: DEV.APP.SVRCONN
+    conn-name: ${MQ_HOST:localhost}(${MQ_PORT:1414})
+    user: app
+    password: ${MQ_APP_PASSWORD}
+server:
+  shutdown: graceful
+  address: 127.0.0.1
+  port: ${SERVER_PORT:8080}
+logging:
+  level:
+    # Les erreurs PostgreSQL peuvent contenir la ligne complète, donc le payload.
+    # Les échecs restent observables via les métriques et le log technique du listener.
+    org.hibernate.orm.jdbc.error: OFF
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: never
+      group:
+        liveness:
+          include: livenessState
+        readiness:
+          include: readinessState,db,jms
+
+bank:
+  ingestion:
+    queue: ${MQ_INPUT_QUEUE:DEV.BANK.IN}
+    backout-queue: ${MQ_BACKOUT_QUEUE:DEV.BANK.BACKOUT}
+    auto-startup: ${INGESTION_ENABLED:true}
+    concurrency: ${INGESTION_CONCURRENCY:1}
+    max-concurrency: ${INGESTION_MAX_CONCURRENCY:${bank.ingestion.concurrency}}
+    retry-delay-ms: ${INGESTION_RETRY_DELAY_MS:1000}
+    max-attempts: ${INGESTION_MAX_ATTEMPTS:3}
+    max-payload-bytes: ${INGESTION_MAX_PAYLOAD_BYTES:1048576}
+
+# Le contrat maintenu reste la source unique, avec une interface Swagger servie localement.
+springdoc:
+  enable-default-api-docs: false
+  swagger-ui:
+    path: /swagger-ui.html
+    url: /openapi.json
+    disable-swagger-default-url: true
+    validator-url: none
+    display-request-duration: true

@@ -1,0 +1,499 @@
+{
+  "durationSeconds": 5.239167065,
+  "warmupMessages": 500,
+  "backout": 0,
+  "messagesPerSecond": 190.87003479626586,
+  "sqlPool": 5,
+  "processCpuCoreEquivalent": 0.7010963678822867,
+  "latencyP95Ms": 3909.188978,
+  "java": "21+35-LTS-2513",
+  "producerThreads": 1,
+  "inputDepthFinal": 0,
+  "persistent": true,
+  "timestamp": "2026-11-04T16:51:47.315631Z",
+  "latencyP99Ms": 4004.048656,
+  "duplicates": 0,
+  "os": "Mac OS X",
+  "peakHeapBytesSampled": 110245768,
+  "receivedAttempts": 1000,
+  "payloadBytes": 65536,
+  "sendSeconds": 1.249970305,
+  "samples": [
+    {
+      "committed": 0,
+      "submitted": 0,
+      "heapBytes": 81494592,
+      "elapsedMs": 6.235389
+    },
+    {
+      "committed": 0,
+      "submitted": 100,
+      "heapBytes": 33319728,
+      "elapsedMs": 111.072354
+    },
+    {
+      "committed": 8,
+      "submitted": 200,
+      "heapBytes": 52194096,
+      "elapsedMs": 213.744897
+    },
+    {
+      "committed": 12,
+      "submitted": 274,
+      "heapBytes": 64777008,
+      "elapsedMs": 316.389579
+    },
+    {
+      "committed": 20,
+      "submitted": 359,
+      "heapBytes": 79457072,
+      "elapsedMs": 418.130358
+    },
+    {
+      "committed": 28,
+      "submitted": 443,
+      "heapBytes": 34618912,
+      "elapsedMs": 523.223043
+    },
+    {
+      "committed": 32,
+      "submitted": 506,
+      "heapBytes": 43007520,
+      "elapsedMs": 625.853929
+    },
+    {
+      "committed": 40,
+      "submitted": 600,
+      "heapBytes": 59784736,
+      "elapsedMs": 728.935742
+    },
+    {
+      "committed": 47,
+      "submitted": 698,
+      "heapBytes": 76561952,
+      "elapsedMs": 832.904987
+    },
+    {
+      "committed": 52,
+      "submitted": 781,
+      "heapBytes": 91242016,
+      "elapsedMs": 934.377789
+    },
+    {
+      "committed": 63,
+      "submitted": 867,
+      "heapBytes": 45125728,
+      "elapsedMs": 1035.735338
+    },
+    {
+      "committed": 71,
+      "submitted": 962,
+      "heapBytes": 61902944,
+      "elapsedMs": 1135.899556
+    },
+    {
+      "committed": 75,
+      "submitted": 1000,
+      "heapBytes": 70291552,
+      "elapsedMs": 1236.432726
+    },
+    {
+      "committed": 103,
+      "submitted": 1000,
+      "heapBytes": 84971616,
+      "elapsedMs": 1340.863988
+    },
+    {
+      "committed": 128,
+      "submitted": 1000,
+      "heapBytes": 34399752,
+      "elapsedMs": 1442.402316
+    },
+    {
+      "committed": 157,
+      "submitted": 1000,
+      "heapBytes": 46982664,
+      "elapsedMs": 1542.66979
+    },
+    {
+      "committed": 184,
+      "submitted": 1000,
+      "heapBytes": 59565576,
+      "elapsedMs": 1644.955724
+    },
+    {
+      "committed": 212,
+      "submitted": 1000,
+      "heapBytes": 74245640,
+      "elapsedMs": 1747.349712
+    },
+    {
+      "committed": 240,
+      "submitted": 1000,
+      "heapBytes": 86828552,
+      "elapsedMs": 1850.937539
+    },
+    {
+      "committed": 264,
+      "submitted": 1000,
+      "heapBytes": 99411464,
+      "elapsedMs": 1952.954828
+    },
+    {
+      "committed": 292,
+      "submitted": 1000,
+      "heapBytes": 34338520,
+      "elapsedMs": 2055.497388
+    },
+    {
+      "committed": 316,
+      "submitted": 1000,
+      "heapBytes": 46921432,
+      "elapsedMs": 2159.620894
+    },
+    {
+      "committed": 340,
+      "submitted": 1000,
+      "heapBytes": 59504344,
+      "elapsedMs": 2260.763566
+    },
+    {
+      "committed": 371,
+      "submitted": 1000,
+      "heapBytes": 72087256,
+      "elapsedMs": 2362.945865
+    },
+    {
+      "committed": 396,
+      "submitted": 1000,
+      "heapBytes": 86767320,
+      "elapsedMs": 2467.649525
+    },
+    {
+      "committed": 420,
+      "submitted": 1000,
+      "heapBytes": 97253080,
+      "elapsedMs": 2571.58167
+    },
+    {
+      "committed": 440,
+      "submitted": 1000,
+      "heapBytes": 32358888,
+      "elapsedMs": 2675.859797
+    },
+    {
+      "committed": 468,
+      "submitted": 1000,
+      "heapBytes": 44941800,
+      "elapsedMs": 2780.110293
+    },
+    {
+      "committed": 488,
+      "submitted": 1000,
+      "heapBytes": 53330408,
+      "elapsedMs": 2883.42431
+    },
+    {
+      "committed": 508,
+      "submitted": 1000,
+      "heapBytes": 63816168,
+      "elapsedMs": 2985.521637
+    },
+    {
+      "committed": 524,
+      "submitted": 1000,
+      "heapBytes": 70107624,
+      "elapsedMs": 3085.944282
+    },
+    {
+      "committed": 547,
+      "submitted": 1000,
+      "heapBytes": 80593384,
+      "elapsedMs": 3189.817468
+    },
+    {
+      "committed": 564,
+      "submitted": 1000,
+      "heapBytes": 88981992,
+      "elapsedMs": 3290.259559
+    },
+    {
+      "committed": 576,
+      "submitted": 1000,
+      "heapBytes": 95273448,
+      "elapsedMs": 3391.194006
+    },
+    {
+      "committed": 588,
+      "submitted": 1000,
+      "heapBytes": 99467752,
+      "elapsedMs": 3491.434777
+    },
+    {
+      "committed": 605,
+      "submitted": 1000,
+      "heapBytes": 32460216,
+      "elapsedMs": 3596.853072
+    },
+    {
+      "committed": 623,
+      "submitted": 1000,
+      "heapBytes": 42945976,
+      "elapsedMs": 3697.136861
+    },
+    {
+      "committed": 645,
+      "submitted": 1000,
+      "heapBytes": 53431736,
+      "elapsedMs": 3800.299449
+    },
+    {
+      "committed": 665,
+      "submitted": 1000,
+      "heapBytes": 63917496,
+      "elapsedMs": 3903.335672
+    },
+    {
+      "committed": 693,
+      "submitted": 1000,
+      "heapBytes": 76500408,
+      "elapsedMs": 4007.29282
+    },
+    {
+      "committed": 721,
+      "submitted": 1000,
+      "heapBytes": 89083320,
+      "elapsedMs": 4109.29583
+    },
+    {
+      "committed": 753,
+      "submitted": 1000,
+      "heapBytes": 103763384,
+      "elapsedMs": 4209.767792
+    },
+    {
+      "committed": 769,
+      "submitted": 1000,
+      "heapBytes": 36845448,
+      "elapsedMs": 4313.861491
+    },
+    {
+      "committed": 789,
+      "submitted": 1000,
+      "heapBytes": 47331208,
+      "elapsedMs": 4416.703801
+    },
+    {
+      "committed": 813,
+      "submitted": 1000,
+      "heapBytes": 57816968,
+      "elapsedMs": 4522.072854
+    },
+    {
+      "committed": 841,
+      "submitted": 1000,
+      "heapBytes": 70399880,
+      "elapsedMs": 4625.793073
+    },
+    {
+      "committed": 868,
+      "submitted": 1000,
+      "heapBytes": 82982792,
+      "elapsedMs": 4728.712832
+    },
+    {
+      "committed": 897,
+      "submitted": 1000,
+      "heapBytes": 95565704,
+      "elapsedMs": 4828.860943
+    },
+    {
+      "committed": 925,
+      "submitted": 1000,
+      "heapBytes": 110245768,
+      "elapsedMs": 4931.953195
+    },
+    {
+      "committed": 949,
+      "submitted": 1000,
+      "heapBytes": 32448584,
+      "elapsedMs": 5033.111439
+    },
+    {
+      "committed": 977,
+      "submitted": 1000,
+      "heapBytes": 45031496,
+      "elapsedMs": 5133.638647
+    }
+  ],
+  "concurrency": 4,
+  "producerCommitBatch": 100,
+  "maxOutstandingSampled": 925,
+  "stored": 1000,
+  "messages": 1000,
+  "errors": 0,
+  "dockerSamples": [
+    {
+      "sampledAt": 1793811090.771425,
+      "containers": [
+        {
+          "BlockIO": "594kB / 292MB",
+          "CPUPerc": "0.87%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.98%",
+          "MemUsage": "311.7MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "150MB / 141MB",
+          "PIDs": "248"
+        },
+        {
+          "BlockIO": "0B / 157MB",
+          "CPUPerc": "0.05%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.70%",
+          "MemUsage": "54.99MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "129MB / 6.29MB",
+          "PIDs": "11"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811094.201591,
+      "containers": [
+        {
+          "BlockIO": "594kB / 292MB",
+          "CPUPerc": "3.40%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "4.03%",
+          "MemUsage": "315.8MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "150MB / 141MB",
+          "PIDs": "248"
+        },
+        {
+          "BlockIO": "0B / 157MB",
+          "CPUPerc": "0.05%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.70%",
+          "MemUsage": "54.8MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "129MB / 6.29MB",
+          "PIDs": "11"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811097.213899,
+      "containers": [
+        {
+          "BlockIO": "594kB / 292MB",
+          "CPUPerc": "7.45%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.97%",
+          "MemUsage": "311.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "150MB / 141MB",
+          "PIDs": "245"
+        },
+        {
+          "BlockIO": "0B / 157MB",
+          "CPUPerc": "5.99%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.73%",
+          "MemUsage": "57.46MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "129MB / 6.3MB",
+          "PIDs": "12"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811100.7939,
+      "containers": [
+        {
+          "BlockIO": "598kB / 340MB",
+          "CPUPerc": "51.71%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "3.99%",
+          "MemUsage": "313.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "183MB / 154MB",
+          "PIDs": "254"
+        },
+        {
+          "BlockIO": "0B / 157MB",
+          "CPUPerc": "3.89%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.83%",
+          "MemUsage": "64.7MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "130MB / 6.31MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811104.216563,
+      "containers": [
+        {
+          "BlockIO": "598kB / 440MB",
+          "CPUPerc": "59.95%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "4.01%",
+          "MemUsage": "314.1MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "250MB / 191MB",
+          "PIDs": "254"
+        },
+        {
+          "BlockIO": "0B / 163MB",
+          "CPUPerc": "43.43%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.83%",
+          "MemUsage": "65.18MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "179MB / 6.58MB",
+          "PIDs": "16"
+        }
+      ]
+    },
+    {
+      "sampledAt": 1793811107.24947,
+      "containers": [
+        {
+          "BlockIO": "598kB / 444MB",
+          "CPUPerc": "48.66%",
+          "Container": "bank-messaging-mq-1",
+          "ID": "5ced70aac2d4",
+          "MemPerc": "4.01%",
+          "MemUsage": "313.9MiB / 7.654GiB",
+          "Name": "bank-messaging-mq-1",
+          "NetIO": "251MB / 235MB",
+          "PIDs": "255"
+        },
+        {
+          "BlockIO": "0B / 168MB",
+          "CPUPerc": "65.44%",
+          "Container": "bank-messaging-postgres-1",
+          "ID": "db3a6c81ccc4",
+          "MemPerc": "0.85%",
+          "MemUsage": "66.23MiB / 7.654GiB",
+          "Name": "bank-messaging-postgres-1",
+          "NetIO": "223MB / 6.83MB",
+          "PIDs": "16"
+        }
+      ]
+    }
+  ]
+}

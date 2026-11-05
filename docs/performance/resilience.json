@@ -1,0 +1,23 @@
+[
+  {
+    "observedRecoveryMs": 11552.861035,
+    "scenario": "mq-restart",
+    "storedRows": 1,
+    "backoutDepth": 0,
+    "timestamp": "2026-11-04T16:52:41.256751Z"
+  },
+  {
+    "observedRecoveryMs": 6051.153976,
+    "scenario": "sql-restart",
+    "storedRows": 1,
+    "backoutDepth": 0,
+    "timestamp": "2026-11-04T16:52:54.016122Z"
+  },
+  {
+    "observedRecoveryMs": 171.544499,
+    "scenario": "crash-redelivery",
+    "storedRows": 1,
+    "backoutDepth": 0,
+    "timestamp": "2026-11-04T16:52:59.622428Z"
+  }
+]

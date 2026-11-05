@@ -1,0 +1,60 @@
+<section aria-labelledby="detail-title">
+  <a class="back-link" routerLink="/messages" [queryParams]="back()">Retour aux messages</a>
+  <div class="page-heading">
+    <div>
+      <h1 id="detail-title">Détail du message</h1>
+      <p>Métadonnées et contenu enregistré.</p>
+    </div>
+  </div>
+  @let view = state();
+  @if (view.status === 'loading') {
+    <div class="state" role="status">Chargement du message…</div>
+  } @else if (view.status === 'missing') {
+    <div class="state" role="alert">
+      <h2>Message introuvable</h2>
+      <p>Ce message n’est pas disponible. Revenez à la liste pour poursuivre la consultation.</p>
+    </div>
+  } @else if (view.status === 'error') {
+    <div class="state" role="alert">
+      <h2>Impossible de charger le message</h2>
+      <p>Vérifiez votre connexion puis réessayez.</p>
+      <button class="primary" type="button" (click)="reload()">Réessayer</button>
+    </div>
+  } @else if (view.status === 'ready') {
+    <dl class="metadata">
+      <div>
+        <dt>Identifiant</dt>
+        <dd>{{ view.data.id }}</dd>
+      </div>
+      <div>
+        <dt>File source</dt>
+        <dd>{{ view.data.sourceQueue }}</dd>
+      </div>
+      <div class="wide">
+        <dt>Identifiant de transport</dt>
+        <dd>
+          <code>{{ view.data.jmsMessageId }}</code>
+        </dd>
+      </div>
+      <div>
+        <dt>Réception (UTC)</dt>
+        <dd>{{ view.data.receivedAt | date: 'dd/MM/yyyy HH:mm:ss' : 'UTC' }}</dd>
+      </div>
+      <div>
+        <dt>Taille UTF-8</dt>
+        <dd>{{ view.data.payloadSize }} octets</dd>
+      </div>
+      <div>
+        <dt>Corrélation</dt>
+        <dd>{{ view.data.correlationId ?? 'Non renseignée' }}</dd>
+      </div>
+      <div>
+        <dt>Type de contenu</dt>
+        <dd>{{ view.data.contentType }}</dd>
+      </div>
+    </dl>
+    <h2 id="payload-title">Contenu du message</h2>
+    <p class="hint">Texte brut, affiché sans interprétation.</p>
+    <pre aria-labelledby="payload-title" tabindex="0">{{ view.data.payload }}</pre>
+  }
+</section>
